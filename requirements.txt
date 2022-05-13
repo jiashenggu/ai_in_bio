@@ -1,0 +1,12 @@
+pubmed_parser
+requests
+beautifulsoup4
+lxml
+gensim
+pandas
+nltk
+pyahocorasick
+seaborn
+matlplotlib
+scikit-learn
+scipy

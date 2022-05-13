@@ -1,0 +1,472 @@
+------------------------- Prologue ----------------------------
+         Started: Wed Sep 18 19:42:32 EDT 2019
+          Job ID: 995657.pearl.hpcc.dartmouth.edu
+         User ID: f00355t
+        Group ID: rc-users
+        Job Name: heatmap_top20_in+decrease_each_5years.py
+ Resources Req'd: nodes=1:ppn=2,walltime=03:30:00,neednodes=1:ppn=2
+      Queue Name: default
+    Account Name: 
+------------------------- Prologue ----------------------------
+
+501    1050
+1     60
+___________________________________________________________
+Result of Year   1970   :
+TOP20 increase of cs:
+learning algorithm : 1.0
+artificial intelligence : 1.0
+word embedding : 0.0
+wireless sensor networks : 0.0
+window length : 0.0
+web application : 0.0
+wearable sensors : 0.0
+wearable device : 0.0
+wavelet transform : 0.0
+wavelet packet : 0.0
+wavelet features : 0.0
+wavelet decomposition : 0.0
+visual perception : 0.0
+visual inspection : 0.0
+visual features : 0.0
+visual attention : 0.0
+virtual screening : 0.0
+virtual reality : 0.0
+vehicle detection : 0.0
+vector space : 0.0
+ 
+TOP20 decrease of cs:
+ab initio : 0.0
+action recognition : 0.0
+activation function : 0.0
+active contour : 0.0
+active learning : 0.0
+activity recognition : 0.0
+adaptive boosting : 0.0
+adaptive neuro-fuzzy inference system : 0.0
+annotated corpus : 0.0
+annotated data : 0.0
+anomaly detection : 0.0
+appearance model : 0.0
+applicability domain : 0.0
+approximate entropy : 0.0
+association rules : 0.0
+attention mechanism : 0.0
+attenuation correction : 0.0
+augmented reality : 0.0
+automated assessment : 0.0
+automated diagnosis : 0.0
+61     120
+___________________________________________________________
+Result of Year   1975   :
+TOP20 increase of cs:
+computer program : 3.0
+artificial intelligence : 3.0
+pattern recognition : 2.0
+multivariate classifier : 2.0
+mahalanobis distance : 2.0
+statistical features : 1.0
+regression analysis : 1.0
+nearest neighbor : 1.0
+information systems : 1.0
+information system : 1.0
+image processing : 1.0
+image analysis : 1.0
+fourier transform : 1.0
+feature vector : 1.0
+feature extraction : 1.0
+discriminant analysis : 1.0
+bayesian model : 1.0
+word embedding : 0.0
+wireless sensor networks : 0.0
+window length : 0.0
+ 
+TOP20 decrease of cs:
+learning algorithm : -1.0
+ab initio : 0.0
+action recognition : 0.0
+activation function : 0.0
+active contour : 0.0
+active learning : 0.0
+activity recognition : 0.0
+adaptive boosting : 0.0
+adaptive neuro-fuzzy inference system : 0.0
+annotated corpus : 0.0
+annotated data : 0.0
+anomaly detection : 0.0
+appearance model : 0.0
+applicability domain : 0.0
+approximate entropy : 0.0
+association rules : 0.0
+attention mechanism : 0.0
+attenuation correction : 0.0
+augmented reality : 0.0
+automated assessment : 0.0
+121     180
+___________________________________________________________
+Result of Year   1980   :
+TOP20 increase of cs:
+artificial intelligence : 29.0
+pattern recognition : 4.0
+linear discriminant : 4.0
+feature space : 4.0
+decision making : 4.0
+nearest neighbor : 3.0
+expert system : 3.0
+decision tree : 3.0
+statistical analysis : 2.0
+standard deviation : 2.0
+receiver operating characteristic : 2.0
+patient monitoring : 2.0
+maximum likelihood : 2.0
+knowledge base : 2.0
+discriminant analysis : 2.0
+classifier design : 2.0
+unsupervised learning : 1.0
+time series : 1.0
+texture features : 1.0
+texture feature : 1.0
+ 
+TOP20 decrease of cs:
+mahalanobis distance : -2.0
+multivariate classifier : -2.0
+computer program : -1.0
+feature extraction : -1.0
+fourier transform : -1.0
+regression analysis : -1.0
+statistical features : -1.0
+ab initio : 0.0
+action recognition : 0.0
+activation function : 0.0
+active contour : 0.0
+active learning : 0.0
+activity recognition : 0.0
+adaptive boosting : 0.0
+adaptive neuro-fuzzy inference system : 0.0
+annotated corpus : 0.0
+annotated data : 0.0
+anomaly detection : 0.0
+appearance model : 0.0
+applicability domain : 0.0
+181     240
+___________________________________________________________
+Result of Year   1985   :
+TOP20 increase of cs:
+artificial intelligence : 100.0
+expert system : 39.0
+image processing : 8.0
+computer program : 8.0
+image analysis : 7.0
+knowledge representation : 6.0
+knowledge base : 6.0
+pattern recognition : 5.0
+neural network : 4.0
+medical informatics : 4.0
+machine learning : 4.0
+decision support system : 4.0
+computer systems : 4.0
+learning algorithm : 3.0
+cognitive science : 3.0
+structure-activity relationships : 2.0
+statistical methods : 2.0
+statistical method : 2.0
+signal processing : 2.0
+rule induction : 2.0
+ 
+TOP20 decrease of cs:
+nearest neighbor : -3.0
+feature vector : -2.0
+receiver operating characteristic : -2.0
+standard deviation : -2.0
+statistical analysis : -2.0
+automated diagnosis : -1.0
+classifier design : -1.0
+clustering algorithms : -1.0
+correlation coefficient : -1.0
+dimension reduction : -1.0
+feature combination : -1.0
+feature space : -1.0
+independent test set : -1.0
+information gain : -1.0
+information theory : -1.0
+lesion detection : -1.0
+linear classifier : -1.0
+loss function : -1.0
+mutual information : -1.0
+parameter estimation : -1.0
+241     300
+___________________________________________________________
+Result of Year   1990   :
+TOP20 increase of cs:
+neural network : 73.0
+machine learning : 45.0
+artificial intelligence : 35.0
+expert system : 14.0
+pattern recognition : 12.0
+learning algorithm : 11.0
+multilayer perceptron : 9.0
+discriminant analysis : 8.0
+decision making : 8.0
+bayesian model : 8.0
+supervised learning : 7.0
+statistical analysis : 7.0
+natural language processing : 7.0
+knowledge base : 6.0
+information system : 6.0
+feature vector : 6.0
+statistical method : 5.0
+nearest neighbor : 5.0
+medical decision making : 5.0
+decision tree : 5.0
+ 
+TOP20 decrease of cs:
+image processing : -5.0
+feature space : -3.0
+cognitive science : -2.0
+probabilistic model : -2.0
+rule induction : -2.0
+deep learning : -1.0
+feature reduction : -1.0
+frequency domain : -1.0
+fuzzy logic : -1.0
+hierarchical clustering : -1.0
+image reconstruction : -1.0
+information technology : -1.0
+multiple regression : -1.0
+multivariate classifier : -1.0
+nonlinear dynamics : -1.0
+patient monitoring : -1.0
+remote sensing : -1.0
+sensor array : -1.0
+ab initio : 0.0
+action recognition : 0.0
+301     360
+___________________________________________________________
+Result of Year   1995   :
+TOP20 increase of cs:
+neural network : 93.0
+machine learning : 34.0
+receiver operating characteristic : 29.0
+genetic algorithm : 24.0
+discriminant analysis : 18.0
+decision tree : 18.0
+logistic regression : 15.0
+learning algorithm : 12.0
+feature space : 12.0
+texture features : 11.0
+texture feature : 11.0
+linear classifier : 11.0
+image analysis : 11.0
+feature selection : 11.0
+feature extraction : 11.0
+artificial intelligence : 11.0
+linear discriminant : 10.0
+fuzzy logic : 9.0
+pattern recognition : 8.0
+nearest neighbor : 8.0
+ 
+TOP20 decrease of cs:
+expert system : -19.0
+medical decision making : -5.0
+computer vision : -4.0
+decision making : -4.0
+knowledge base : -4.0
+natural language processing : -4.0
+classifier design : -3.0
+computer program : -3.0
+computer systems : -3.0
+decision support system : -3.0
+knowledge representation : -3.0
+medical informatics : -3.0
+bayesian network : -2.0
+independent set : -2.0
+large databases : -2.0
+mahalanobis distance : -2.0
+network analysis : -2.0
+brain imaging : -1.0
+brain-computer interface : -1.0
+complex networks : -1.0
+361     420
+___________________________________________________________
+Result of Year   2000   :
+TOP20 increase of cs:
+machine learning : 161.0
+neural network : 103.0
+support vector machine : 95.0
+artificial intelligence : 54.0
+learning algorithm : 44.0
+decision tree : 37.0
+data mining : 36.0
+supervised learning : 32.0
+linear discriminant : 30.0
+discriminant analysis : 30.0
+feature selection : 25.0
+nearest neighbor : 21.0
+genetic algorithm : 20.0
+feature extraction : 20.0
+linear classifier : 17.0
+deep learning : 17.0
+classifier design : 15.0
+bayesian model : 15.0
+receiver operating characteristic : 13.0
+brain-computer interface : 13.0
+ 
+TOP20 decrease of cs:
+expert system : -7.0
+frequency band : -5.0
+textural features : -5.0
+frequency domain : -4.0
+convolution neural network : -3.0
+information system : -3.0
+machine vision : -3.0
+markov chain : -3.0
+texture feature : -3.0
+texture features : -3.0
+electronic medical record : -2.0
+hybrid classifier : -2.0
+information systems : -2.0
+monte carlo : -2.0
+motor control : -2.0
+regression trees : -2.0
+signal features : -2.0
+spectral analysis : -2.0
+tissue characterization : -2.0
+activation function : -1.0
+421     480
+___________________________________________________________
+Result of Year   2005   :
+TOP20 increase of cs:
+machine learning : 967.0
+support vector machine : 715.0
+neural network : 315.0
+learning algorithm : 221.0
+feature selection : 183.0
+nearest neighbor : 155.0
+bayesian model : 154.0
+receiver operating characteristic : 115.0
+discriminant analysis : 115.0
+linear discriminant : 113.0
+feature extraction : 110.0
+pattern recognition : 102.0
+random forest : 95.0
+supervised learning : 88.0
+principle component analysis : 88.0
+decision tree : 85.0
+computational method : 72.0
+logistic regression : 70.0
+feature vector : 69.0
+genetic algorithm : 66.0
+ 
+TOP20 decrease of cs:
+factor analysis : -4.0
+case-based reasoning : -3.0
+data streams : -3.0
+prognostic models : -3.0
+image reconstruction : -2.0
+prognostic model : -2.0
+scoring system : -2.0
+causal inference : -1.0
+computer systems : -1.0
+data science : -1.0
+knowledge acquisition : -1.0
+remote monitoring : -1.0
+sparse coding : -1.0
+stochastic gradient descent : -1.0
+surface electromyography : -1.0
+texture descriptors : -1.0
+anomaly detection : 0.0
+attention mechanism : 0.0
+bag of words : 0.0
+bayesian inference : 0.0
+481     540
+___________________________________________________________
+Result of Year   2010   :
+TOP20 increase of cs:
+machine learning : 1440.0
+support vector machine : 712.0
+random forest : 298.0
+learning algorithm : 298.0
+feature selection : 256.0
+supervised learning : 158.0
+receiver operating characteristic : 145.0
+logistic regression : 135.0
+decision tree : 119.0
+computational method : 107.0
+bayesian model : 103.0
+discriminant analysis : 100.0
+feature extraction : 98.0
+computational methods : 86.0
+ensemble model : 85.0
+predictive models : 80.0
+principle component analysis : 79.0
+nearest neighbor : 74.0
+natural language processing : 70.0
+data mining : 70.0
+ 
+TOP20 decrease of cs:
+genetic programming : -16.0
+face recognition : -9.0
+multi-class classification : -7.0
+fuzzy logic : -6.0
+activation function : -5.0
+database search : -5.0
+image enhancement : -5.0
+computational intelligence : -4.0
+information system : -4.0
+tandem mass spectrometry : -4.0
+information systems : -3.0
+intelligent systems : -3.0
+knowledge acquisition : -3.0
+peptide identification : -3.0
+probabilistic model : -3.0
+functional annotation : -2.0
+maximum likelihood : -2.0
+pose estimation : -2.0
+recursive partitioning : -2.0
+sequence alignment : -2.0
+541     600
+___________________________________________________________
+Result of Year   2015   :
+TOP20 increase of cs:
+machine learning : 8386.0
+neural network : 3920.0
+deep learning : 3097.0
+learning algorithm : 2167.0
+support vector machine : 2112.0
+convolution neural network : 1963.0
+random forest : 1850.0
+artificial intelligence : 1600.0
+receiver operating characteristic : 1047.0
+logistic regression : 849.0
+feature selection : 794.0
+supervised learning : 710.0
+feature extraction : 621.0
+big data : 602.0
+decision tree : 448.0
+image analysis : 418.0
+data science : 377.0
+predictive models : 353.0
+nearest neighbor : 353.0
+correlation coefficient : 338.0
+ 
+TOP20 decrease of cs:
+fuzzy classifier : -9.0
+pattern matching : -4.0
+classifier ensemble : -3.0
+concept extraction : -3.0
+hierarchical classifier : -3.0
+incremental learning : -2.0
+peptide identification : -2.0
+classifier fusion : 0.0
+continuous wavelet transform : 0.0
+fold recognition : 0.0
+approximate entropy : 1.0
+knowledge acquisition : 1.0
+classifier design : 2.0
+spike sorting : 2.0
+case-based reasoning : 3.0
+fuzzy c-means : 3.0
+rule induction : 4.0
+edge detection : 5.0
+learning vector quantization : 5.0
+association rules : 6.0

@@ -1,0 +1,20 @@
+--2022-05-07 18:22:37--  https://www.dropbox.com/sh/nxg5qlzn1870k9p/AAD830JYos5DzCf9qs2G-O5Fa/all%20the%20messy%20code%20that%20may%20be%20helpful?dl=0
+Resolving www.dropbox.com (www.dropbox.com)... 162.125.4.18, 2620:100:6019:18::a27d:412
+Connecting to www.dropbox.com (www.dropbox.com)|162.125.4.18|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /sh/raw/nxg5qlzn1870k9p/AAD830JYos5DzCf9qs2G-O5Fa/all%20the%20messy%20code%20that%20may%20be%20helpful [following]
+--2022-05-07 18:22:37--  https://www.dropbox.com/sh/raw/nxg5qlzn1870k9p/AAD830JYos5DzCf9qs2G-O5Fa/all%20the%20messy%20code%20that%20may%20be%20helpful
+Reusing existing connection to www.dropbox.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://uc4e3dd0d50c0214dfc3b9ee233a.dl.dropboxusercontent.com/zip_download_get/BIPM0zfUb4rgMc9HpDWblC2ZBcgdnsuAgvoBx6amV7VUeeHydzxGZQFBQSUuNYVkVRpB2jVovtwdy8gNNJAnIdjmddjs1hr3_CN5hS-YBq_2Ow# [following]
+--2022-05-07 18:22:38--  https://uc4e3dd0d50c0214dfc3b9ee233a.dl.dropboxusercontent.com/zip_download_get/BIPM0zfUb4rgMc9HpDWblC2ZBcgdnsuAgvoBx6amV7VUeeHydzxGZQFBQSUuNYVkVRpB2jVovtwdy8gNNJAnIdjmddjs1hr3_CN5hS-YBq_2Ow
+Resolving uc4e3dd0d50c0214dfc3b9ee233a.dl.dropboxusercontent.com (uc4e3dd0d50c0214dfc3b9ee233a.dl.dropboxusercontent.com)... 162.125.4.15, 2620:100:6019:15::a27d:40f
+Connecting to uc4e3dd0d50c0214dfc3b9ee233a.dl.dropboxusercontent.com (uc4e3dd0d50c0214dfc3b9ee233a.dl.dropboxusercontent.com)|162.125.4.15|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 51561490 (49M) [application/zip]
+Saving to: ‘all the messy code that may be helpful?dl=0’
+
+all the messy code that may be helpful?   0%[                                                                               ]       0  --.-KB/s               all the messy code that may be helpful?   1%[                                                                               ] 633.45K  2.79MB/s               all the messy code that may be helpful?  12%[========>                                                                      ]   6.01M  14.1MB/s               all the messy code that may be helpful?  24%[==================>                                                            ]  12.14M  19.0MB/s               all the messy code that may be helpful?  44%[==================================>                                            ]  22.10M  26.3MB/s               all the messy code that may be helpful?  57%[============================================>                                  ]  28.11M  27.0MB/s               all the messy code that may be helpful?  74%[=========================================================>                     ]  36.56M  29.4MB/s               all the messy code that may be helpful?  94%[=========================================================================>     ]  46.62M  32.1MB/s               all the messy code that may be helpful? 100%[==============================================================================>]  49.17M  32.8MB/s    in 1.5s    
+
+2022-05-07 18:22:40 (32.8 MB/s) - ‘all the messy code that may be helpful?dl=0’ saved [51561490/51561490]
+

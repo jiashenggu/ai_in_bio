@@ -1,0 +1,472 @@
+------------------------- Prologue ----------------------------
+         Started: Wed Sep 18 21:05:23 EDT 2019
+          Job ID: 995713.pearl.hpcc.dartmouth.edu
+         User ID: f00355t
+        Group ID: rc-users
+        Job Name: heatmap_top20_in+decrease_each_5years.py
+ Resources Req'd: nodes=1:ppn=2,walltime=03:30:00,neednodes=1:ppn=2
+      Queue Name: default
+    Account Name: 
+------------------------- Prologue ----------------------------
+
+501    1050
+1     60
+___________________________________________________________
+Result of Year   1970   :
+TOP20 increase of medical:
+young adults : 0.0
+wound healing : 0.0
+world health organization : 0.0
+working memory : 0.0
+whole slide images : 0.0
+whole blood : 0.0
+white matter lesions : 0.0
+white matter hyperintensities : 0.0
+white matter : 0.0
+white blood cells : 0.0
+weight loss : 0.0
+water temperature : 0.0
+water quality : 0.0
+wastewater treatment : 0.0
+waist circumference : 0.0
+voxel-based morphometry : 0.0
+volatile organic compounds : 0.0
+voice disorders : 0.0
+vital signs : 0.0
+visual fields : 0.0
+ 
+TOP20 decrease of medcal:
+abdominal pain : 0.0
+active sites : 0.0
+active surveillance : 0.0
+activities of daily living : 0.0
+activity cliffs : 0.0
+acute coronary syndrome : 0.0
+acute ischemic stroke : 0.0
+acute kidney injury : 0.0
+acute lymphoblastic leukemia : 0.0
+acute myeloid leukemia : 0.0
+acute myocardial infarction : 0.0
+acute stroke : 0.0
+adipose tissue : 0.0
+adjuvant chemotherapy : 0.0
+adjuvant therapy : 0.0
+adverse drug events : 0.0
+adverse drug reaction : 0.0
+adverse outcomes : 0.0
+adverse reactions : 0.0
+afirma gene expression classifier : 0.0
+61     120
+___________________________________________________________
+Result of Year   1975   :
+TOP20 increase of medical:
+cell morphology : 2.0
+t cells : 1.0
+t cell : 1.0
+sleep stage : 1.0
+respiratory tract : 1.0
+particle size : 1.0
+mental health : 1.0
+clinical laboratory : 1.0
+cell segmentation : 1.0
+blood smear : 1.0
+young adults : 0.0
+wound healing : 0.0
+world health organization : 0.0
+working memory : 0.0
+whole slide images : 0.0
+whole blood : 0.0
+white matter lesions : 0.0
+white matter hyperintensities : 0.0
+white matter : 0.0
+white blood cells : 0.0
+ 
+TOP20 decrease of medcal:
+abdominal pain : 0.0
+active sites : 0.0
+active surveillance : 0.0
+activities of daily living : 0.0
+activity cliffs : 0.0
+acute coronary syndrome : 0.0
+acute ischemic stroke : 0.0
+acute kidney injury : 0.0
+acute lymphoblastic leukemia : 0.0
+acute myeloid leukemia : 0.0
+acute myocardial infarction : 0.0
+acute stroke : 0.0
+adipose tissue : 0.0
+adjuvant chemotherapy : 0.0
+adjuvant therapy : 0.0
+adverse drug events : 0.0
+adverse drug reaction : 0.0
+adverse outcomes : 0.0
+adverse reactions : 0.0
+afirma gene expression classifier : 0.0
+121     180
+___________________________________________________________
+Result of Year   1980   :
+TOP20 increase of medical:
+clinical decision : 2.0
+age groups : 2.0
+visual field : 1.0
+vascular disease : 1.0
+t cell : 1.0
+single cell : 1.0
+risk assessment : 1.0
+patient care : 1.0
+myocardial infarction : 1.0
+missing data : 1.0
+lung function : 1.0
+intensive care : 1.0
+false positives : 1.0
+event-related potentials : 1.0
+eeg signal : 1.0
+early detection : 1.0
+differential diagnosis : 1.0
+diagnostic performance : 1.0
+clinical research : 1.0
+clinical data : 1.0
+ 
+TOP20 decrease of medcal:
+cell morphology : -2.0
+cell segmentation : -1.0
+clinical laboratory : -1.0
+mental health : -1.0
+particle size : -1.0
+respiratory tract : -1.0
+t cells : -1.0
+abdominal pain : 0.0
+active sites : 0.0
+active surveillance : 0.0
+activities of daily living : 0.0
+activity cliffs : 0.0
+acute coronary syndrome : 0.0
+acute ischemic stroke : 0.0
+acute kidney injury : 0.0
+acute lymphoblastic leukemia : 0.0
+acute myeloid leukemia : 0.0
+acute myocardial infarction : 0.0
+acute stroke : 0.0
+adipose tissue : 0.0
+181     240
+___________________________________________________________
+Result of Year   1985   :
+TOP20 increase of medical:
+natural language : 7.0
+structure prediction : 3.0
+protein structure : 3.0
+clinical practice : 3.0
+breast cancer : 3.0
+t cells : 2.0
+t cell : 2.0
+secondary structure : 2.0
+patient care : 2.0
+medical imaging : 2.0
+medical education : 2.0
+human body : 2.0
+high risk : 2.0
+health care : 2.0
+evoked potentials : 2.0
+diagnostic performance : 2.0
+diagnostic imaging : 2.0
+computer-assisted diagnosis : 2.0
+clinical decision : 2.0
+blood tests : 2.0
+ 
+TOP20 decrease of medcal:
+age groups : -2.0
+amino acid sequence : -1.0
+blood pressure : -1.0
+cardiovascular disease : -1.0
+cervical cancer : -1.0
+chemical properties : -1.0
+clinical research : -1.0
+early detection : -1.0
+eeg signal : -1.0
+event-related potentials : -1.0
+lung function : -1.0
+missing data : -1.0
+risk assessment : -1.0
+sleep stage : -1.0
+vascular disease : -1.0
+active sites : 0.0
+active surveillance : 0.0
+activities of daily living : 0.0
+activity cliffs : 0.0
+acute coronary syndrome : 0.0
+241     300
+___________________________________________________________
+Result of Year   1990   :
+TOP20 increase of medical:
+secondary structure : 9.0
+molecular biology : 9.0
+health care : 7.0
+diagnostic accuracy : 7.0
+clinical data : 7.0
+human brain : 6.0
+clinical decision : 6.0
+quality control : 5.0
+protein structure : 5.0
+intensive care : 5.0
+drug design : 5.0
+chemical properties : 5.0
+protein sequences : 4.0
+protein secondary structure : 4.0
+in vivo : 4.0
+clinical research : 4.0
+treatment planning : 3.0
+structure prediction : 3.0
+structural alerts : 3.0
+risk assessment : 3.0
+ 
+TOP20 decrease of medcal:
+blood tests : -2.0
+differential diagnosis : -2.0
+human body : -2.0
+t cell : -2.0
+bladder cancer : -1.0
+blood glucose : -1.0
+blood smear : -1.0
+cancer diagnosis : -1.0
+cancer research : -1.0
+cause of death : -1.0
+cell classification : -1.0
+cell types : -1.0
+chronic disease : -1.0
+clinical decision support system : -1.0
+clinical utility : -1.0
+diabetes mellitus : -1.0
+diagnostic performance : -1.0
+electrical stimulation : -1.0
+eye movement : -1.0
+gait cycle : -1.0
+301     360
+___________________________________________________________
+Result of Year   1995   :
+TOP20 increase of medical:
+health care : 9.0
+diagnostic performance : 9.0
+myocardial infarction : 7.0
+t cell : 6.0
+risk factor : 6.0
+medical image : 6.0
+fine needle aspiration : 6.0
+electrical stimulation : 6.0
+differential diagnosis : 6.0
+high risk : 5.0
+t cells : 4.0
+risk factors : 4.0
+heart disease : 4.0
+dna sequence : 4.0
+diagnostic information : 4.0
+clinical practice : 4.0
+breast lesion : 4.0
+bone marrow : 4.0
+surface learning : 3.0
+spinal cord : 3.0
+ 
+TOP20 decrease of medcal:
+molecular biology : -8.0
+secondary structure : -7.0
+clinical decision : -6.0
+chemical properties : -5.0
+drug design : -5.0
+structure prediction : -4.0
+atrial fibrillation : -3.0
+chest radiography : -3.0
+clinical research : -3.0
+in vivo : -3.0
+patient care : -3.0
+protein secondary structure : -3.0
+protein structure : -3.0
+protein structure prediction : -3.0
+quality control : -3.0
+radiology report : -3.0
+blood flow : -2.0
+cardiac surgery : -2.0
+clinical laboratory : -2.0
+clinical outcome : -2.0
+361     420
+___________________________________________________________
+Result of Year   2000   :
+TOP20 increase of medical:
+gene expression : 71.0
+expression profiles : 25.0
+mass spectrometry : 17.0
+gene expression profile : 17.0
+prostate cancer : 15.0
+protein sequence : 13.0
+magnetic resonance : 12.0
+structure prediction : 11.0
+skin lesions : 11.0
+protein structure : 11.0
+gene set : 11.0
+gene expression profiling : 11.0
+expression signature : 11.0
+cell line : 11.0
+breast cancer : 11.0
+secondary structure : 10.0
+protein function : 10.0
+lung cancer : 10.0
+in vivo : 10.0
+molecular biology : 9.0
+ 
+TOP20 decrease of medcal:
+diagnostic performance : -7.0
+myocardial infarction : -7.0
+fine needle aspiration : -6.0
+health care : -4.0
+human brain : -4.0
+diagnostic accuracy : -3.0
+emergency room : -3.0
+false alarms : -3.0
+lymph node status : -3.0
+nuclear medicine : -3.0
+blood plasma : -2.0
+bone marrow : -2.0
+chest pain : -2.0
+chest x-ray : -2.0
+clinical laboratory : -2.0
+contrast enhancement : -2.0
+diagnostic classification : -2.0
+emergency department : -2.0
+emg signal : -2.0
+epilepsy surgery : -2.0
+421     480
+___________________________________________________________
+Result of Year   2005   :
+TOP20 increase of medical:
+gene expression : 266.0
+protein sequence : 116.0
+breast cancer : 105.0
+mass spectrometry : 91.0
+protein structure : 89.0
+expression profiles : 86.0
+protein sequences : 78.0
+gene expression profile : 75.0
+magnetic resonance : 69.0
+secondary structure : 61.0
+chemical properties : 55.0
+protein interaction : 52.0
+false positives : 52.0
+protein function : 49.0
+amino acid sequence : 47.0
+gene expression profiling : 44.0
+binding site : 44.0
+drug discovery : 43.0
+amino acid composition : 43.0
+gene ontology : 42.0
+ 
+TOP20 decrease of medcal:
+skin lesions : -6.0
+epidemiological studies : -4.0
+electrical stimulation : -3.0
+intracranial pressure : -3.0
+magnetic resonance spectroscopy : -3.0
+mycobacterium tuberculosis : -3.0
+abdominal pain : -2.0
+cognitive function : -2.0
+low back pain : -2.0
+microbial ecology : -2.0
+patient outcomes : -2.0
+quality of care : -2.0
+biochemical recurrence : -1.0
+bone age : -1.0
+cancer risk : -1.0
+cerebral blood flow : -1.0
+clinical guidelines : -1.0
+corpus callosum : -1.0
+diagnostic imaging : -1.0
+disabled people : -1.0
+481     540
+___________________________________________________________
+Result of Year   2010   :
+TOP20 increase of medical:
+magnetic resonance : 155.0
+gene expression : 127.0
+protein interaction : 113.0
+breast cancer : 97.0
+protein-protein interaction : 83.0
+natural language : 78.0
+t cell : 63.0
+clinical data : 61.0
+in vivo : 60.0
+clinical practice : 59.0
+cognitive impairment : 56.0
+computed tomography : 55.0
+drug discovery : 52.0
+medical image : 49.0
+binding site : 49.0
+brain activity : 47.0
+mild cognitive impairment : 44.0
+protein-protein interactions : 43.0
+clinical trial : 43.0
+risk factor : 42.0
+ 
+TOP20 decrease of medcal:
+gene expression profiling : -16.0
+protein classification : -13.0
+gene expression profile : -12.0
+sequence homology : -8.0
+cancer classification : -7.0
+comparative genomics : -7.0
+tissue classification : -7.0
+fluorescence in situ hybridization : -6.0
+molecular signature : -6.0
+aqueous solubility : -5.0
+clustered microcalcifications : -5.0
+expression profiles : -5.0
+molecular signatures : -5.0
+protein profiles : -5.0
+protein structure prediction : -5.0
+surface learning : -5.0
+amino acid sequence : -4.0
+cpg islands : -4.0
+dna-binding proteins : -4.0
+optic neuropathy : -4.0
+541     600
+___________________________________________________________
+Result of Year   2015   :
+TOP20 increase of medical:
+magnetic resonance : 857.0
+gene expression : 555.0
+clinical practice : 429.0
+breast cancer : 405.0
+computed tomography : 383.0
+clinical trial : 373.0
+health care : 368.0
+clinical decision : 357.0
+risk factor : 352.0
+electronic health record : 351.0
+natural language : 348.0
+clinical data : 334.0
+risk factors : 302.0
+medical image : 297.0
+lung cancer : 287.0
+drug discovery : 286.0
+t cell : 277.0
+early detection : 277.0
+ct images : 270.0
+public health : 263.0
+ 
+TOP20 decrease of medcal:
+microarray analysis : -19.0
+suicide notes : -11.0
+cleavage site : -8.0
+gene selection : -8.0
+protein profiles : -7.0
+ct colonography : -4.0
+structural genomics : -4.0
+neuromuscular disorders : -3.0
+protein subcellular localization : -3.0
+reverse transcriptase : -3.0
+ribosomal rna : -3.0
+protein domains : -2.0
+signal peptides : -2.0
+subcellular location : -2.0
+small bowel : -1.0
+trabecular bone : -1.0
+active sites : 0.0
+missense mutations : 0.0
+clustered microcalcifications : 1.0
+cpg islands : 1.0

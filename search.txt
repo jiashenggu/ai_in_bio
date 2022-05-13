@@ -1,0 +1,3 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=300000&term=machine+learning[Title/Abstract]+OR+%20artificial+intelligence[Title/Abstract])+OR+%20classifier[Title/Abstract]+OR+%20deep+learning[Title/Abstract]+OR+%20data+science[Title/Abstract]%20)
+
+"machine learning"[MeSH Terms] OR "machine learning"[All Fields] OR "artificial+intelligence"[All Fields]) OR "classifier"[All Fields]) OR "deep learning"[All Fields]) OR "data science"[All Fields])
