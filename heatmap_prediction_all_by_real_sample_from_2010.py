@@ -1,3 +1,4 @@
+from curses import window
 import pandas as pd
 import numpy as np
 import gensim
@@ -19,6 +20,8 @@ from sklearn.linear_model import Ridge
 from sklearn.linear_model import Lasso
 from sklearn.svm import SVR
 from sklearn.linear_model import LinearRegression
+import warnings
+warnings.filterwarnings("ignore")
 C = ahocorasick.Automaton()
 M = ahocorasick.Automaton()
 def not_all_uppercase(str):
@@ -79,7 +82,8 @@ def get_spearmanr(pred_heat,heat):
 C.make_automaton()
 M.make_automaton()
 
-df_all = pd.read_csv('./papers.csv')
+# df_all = pd.read_csv('./papers.csv')
+df_all = pd.read_csv('./papers_2022.csv')
 start=1
 end=6
 df_all['Date']=(df_all['year']-2000)*12+df_all['month']
@@ -103,7 +107,25 @@ for c in range(1,tot_cs+1):
         train_label[c*10000+m]=[]
         test_data[c*10000+m]=[]
         test_label[c*10000+m]=[]
-while(end<=234):#2019-6
+
+results = {}
+results['date'] = []
+
+results['linear_regression_r2'] = []
+results['svr_r2'] = []
+results['lasso_r2'] = []
+results['ridge_false_r2'] = []
+results['ridge_true_r2'] = []
+
+# results['linear_regression_spearmanr'] = []
+# results['svr_spearmanr'] = []
+# results['lasso_spearmanr'] = []
+# results['ridge_false_spearmanr'] = []
+# results['ridge_true_spearmanr'] = []
+
+window_size = 9
+# while(end<=234):#2019-6
+while(end<=264):#2021-12
     print(start,"   ",end, len(train_label))
    # for c in range(1,tot_cs+1):
    #     for m in range(1,tot_medical+1):
@@ -132,7 +154,7 @@ while(end<=234):#2019-6
                     maxn=heat[c+20,m+20]
     #print(heat)
     if(start!=1):
-        layers=5
+        layers=window_size
         for c in range(1,tot_cs+1):
             for m in range(1,tot_medical+1):
                 tmp=[start-6]
@@ -178,15 +200,28 @@ while(end<=234):#2019-6
                 train_data[c*10000+m].append(tmp)
                 train_label[c*10000+m].append(heat[c+20,m+20])
 
-        print(2000+int(start/12)," ",start%12,"  :\n")
-        print(get_r2(pred_lr,heat)," ", get_spearmanr(pred_lr,heat))
-        print(get_r2(pred_svr,heat)," ", get_spearmanr(pred_svr,heat))
-        print(get_r2(pred_lasso,heat)," ", get_spearmanr(pred_lasso,heat))
-        print(get_r2(pred_ridge_false,heat)," ", get_spearmanr(pred_ridge_false,heat))
-        print(get_r2(pred_ridge_true,heat)," ", get_spearmanr(pred_ridge_true,heat))
+        # print(2000+int(start/12)," ",start%12,"  :\n")
+        # print(get_r2(pred_lr,heat)," ", get_spearmanr(pred_lr,heat))
+        # print(get_r2(pred_svr,heat)," ", get_spearmanr(pred_svr,heat))
+        # print(get_r2(pred_lasso,heat)," ", get_spearmanr(pred_lasso,heat))
+        # print(get_r2(pred_ridge_false,heat)," ", get_spearmanr(pred_ridge_false,heat))
+        # print(get_r2(pred_ridge_true,heat)," ", get_spearmanr(pred_ridge_true,heat))
+        results['date'].append("{}/{}".format(2000+int(start/12), start%12))
+        results['linear_regression_r2'].append(get_r2(pred_lr, heat))
+        results['svr_r2'].append(get_r2(pred_svr, heat))
+        results['lasso_r2'].append(get_r2(pred_lasso, heat))
+        results['ridge_false_r2'].append(get_r2(pred_ridge_false, heat))
+        results['ridge_true_r2'].append(get_r2(pred_ridge_true, heat))
+        # results['linear_regression_spearmanr'].append(get_spearmanr(pred_lr, heat))
+        # results['svr_spearmanr'].append(get_spearmanr(pred_svr, heat))
+        # results['lasso_spearmanr'].append(get_spearmanr(pred_lasso, heat))
+        # results['ridge_false_spearmanr'].append(get_spearmanr(pred_ridge_false, heat))
+        # results['ridge_true_spearmanr'].append(get_spearmanr(pred_ridge_true, heat))
     last_heat=heat
     start+=6
     end+=6
+
+pd.DataFrame(results).to_csv('window_size_{}.csv'.format(window_size))
 
 
 

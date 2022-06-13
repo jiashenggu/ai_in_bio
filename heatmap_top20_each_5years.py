@@ -52,9 +52,11 @@ with open("medical1000_combine.txt") as f:
 C.make_automaton()
 M.make_automaton()
 
-df_all = pd.read_csv('./papers.csv')
+# df_all = pd.read_csv('./papers.csv')
+df_all = pd.read_csv('./papers_2022.csv')
 start=1
 end=60
+#  1970
 df_all['Date']=(df_all['year']-1970)*12+df_all['month']
 
 print(tot_cs,"  ",tot_medical)

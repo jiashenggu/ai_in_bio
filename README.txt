@@ -36,3 +36,19 @@ The word2vec model are on the cluster since it was tooooo large
 /dartfs-hpc/rc/lab/V/VosoughiS/lili/pub/fulltext_abstract_phrases3.model.trainables.vectors_lockf.npy
 /dartfs-hpc/rc/lab/V/VosoughiS/lili/pub/fulltext_abstract_phrases3.model.trainables.syn1neg.npy
 /dartfs-hpc/rc/lab/V/VosoughiS/lili/pub/fulltext_abstract_phrases3.model.wv.vectors.npy 
+
+
+# 265     270 Ridge  r2_score: -0.7222582107392554
+# 259     264 Ridge  r2_score: 0.7745969672572482
+different models, ridge, lasso
+heatmap_prediction_all_by_real_sample_from_2010.py, not same as README description 2000 start
+
+heatmap_clustermap.py, heatmap_clustermap_2019_pred.py, duplicate similar
+heatmap_prediction_all_by_real_sample_from_2010.py  heatmap_prediction_from_2015.py similar
+
+pubmed_figure why hard coded array, some window size have no spear
+
+68.181.17.78, 68.181.17.*
+571161
+1553471
+1560595

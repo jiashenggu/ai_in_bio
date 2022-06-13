@@ -54,8 +54,11 @@ with open("top200medical_combine.txt") as f:
 
 C.make_automaton()
 M.make_automaton()
-model = Word2Vec.load("fulltext_abstract_phrases3.model")
-df = pd.read_csv('./papers.csv')
+# model = Word2Vec.load("word2vec/fulltext_abstract_phrases3.model")
+model = Word2Vec.load("word2vec/fulltext_abstract_new.model")
+# df = pd.read_csv('./papers.csv')
+df = pd.read_csv('./papers_2022.csv')
+
 print(tot_cs,"  ",tot_medical)
 heat=np.zeros((tot_cs+1,tot_medical+1))
 
@@ -90,6 +93,6 @@ row_linkage = hc.linkage(row_dis, method='average')
 col_linkage= hc.linkage(col_dis, method='average')
 heat=np.log1p(heat)
 g=sns.clustermap(heat, row_linkage=row_linkage, col_linkage=col_linkage ) 
-g.savefig("clusterheat.pdf")
+g.savefig("clusterheat_2022.pdf")
 
 
