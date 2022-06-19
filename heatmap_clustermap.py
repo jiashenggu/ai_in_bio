@@ -93,6 +93,6 @@ row_linkage = hc.linkage(row_dis, method='average')
 col_linkage= hc.linkage(col_dis, method='average')
 heat=np.log1p(heat)
 g=sns.clustermap(heat, row_linkage=row_linkage, col_linkage=col_linkage ) 
-g.savefig("clusterheat_2022.pdf")
+g.savefig("picture/clusterheat_2022.pdf")
 
 

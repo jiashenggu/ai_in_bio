@@ -192,7 +192,7 @@ plot_heat = np.log1p(plot_heat)
 g = sns.clustermap(plot_heat, row_linkage=row_linkage,
                    col_linkage=col_linkage, vmin=0, vmax=5)
 # g.savefig("2019-6-pred_3.pdf")
-g.savefig("2022-5-pred_3.pdf")
+g.savefig("picture/2021-12-pred_3.pdf")
 
 
 for i in range(0, tot_cs+1):
@@ -202,4 +202,4 @@ plot_heat = np.log1p(plot_heat)
 g = sns.clustermap(plot_heat, row_linkage=row_linkage,
                    col_linkage=col_linkage, vmin=0, vmax=5)
 # g.savefig("2019-6-actal_3.pdf")
-g.savefig("2022-5-actal_3.pdf")
+g.savefig("picture/2021-12-actal_3.pdf")
