@@ -84,11 +84,11 @@ row_dis=[]
 col_dis=[]
 for i in range(0,tot_cs+1):
     for j in range(i+1,tot_cs+1):
-        row_dis.append(1-model.similarity(dict[i],dict[j]))
+        row_dis.append(1-model.wv.similarity(dict[i],dict[j]))
         
 for i in range(0,tot_medical+1):
     for j in range(i+1,tot_medical+1):
-        col_dis.append(1-model.similarity(dict[5000+i],dict[5000+j]))
+        col_dis.append(1-model.wv.similarity(dict[5000+i],dict[5000+j]))
 row_linkage = hc.linkage(row_dis, method='average')
 col_linkage= hc.linkage(col_dis, method='average')
 heat=np.log1p(heat)
