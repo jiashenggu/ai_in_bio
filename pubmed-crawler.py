@@ -1,3 +1,4 @@
+from cmath import pi
 import sys
 import pubmed_parser as pp
 import csv
@@ -12,22 +13,24 @@ headers = {
 with open("pids_new.txt") as f:
     str_pids = f.readlines()
 
-# pids = [int(x.strip()) for x in str_pids]
+pids = [int(x.strip()) for x in str_pids]
 
 
-pids = []
-flag = False
-for x in str_pids:
-    pid = int(x.strip())
-    if pid == 35079207:
-        flag = True
-    if flag:
-        pids.append(pid)
+# pids = []
+# flag = False
+# for x in str_pids:
+#     pid = int(x.strip())
+#     if pid == 35079207:
+#         flag = True
+#     if flag:
+#         pids.append(pid)
+print(pids)
         
 
-papers = open("papers_new_1.csv", "w", encoding='utf-8')
+papers = open("papers_2022.csv", "w", encoding='utf-8')
 papers.write("pmid,title,abstract,journal,affiliation,authors,keywords,doi,year,month,citations,keywords_match\n")
 for i in range(len(pids)):
+    print(i)
     try:
         dict_out = pp.parse_xml_web(pids[i], save_xml=False)
         papers.write('"' + re.sub(r'"', "", dict_out['pmid']) + '",')
@@ -85,7 +88,7 @@ for i in range(len(pids)):
             keywords += "Classifier;"
 
         papers.write('"' + keywords + '"\n')
-        time.sleep(10)
+        time.sleep(1)
 
     except Exception as e:
         print(pids[i])
