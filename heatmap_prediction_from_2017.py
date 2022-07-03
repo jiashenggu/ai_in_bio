@@ -110,6 +110,7 @@ results['date'] = []
 results['lasso_r2'] = []
 results['lasso_spearmanr'] = []
 # while(end<=234):#2019-6
+pred_start = 205 # 2016-1
 while(end <= 264):  # 2021-12
     print(start, "   ", end, len(train_label))
    # for c in range(1,tot_cs+1):
@@ -147,7 +148,8 @@ while(end <= 264):  # 2021-12
                     for m1 in range(m-1, m+2):
                         tmp.append(last_heat[c1+20][m1+20])
 
-                if(start >= 175):
+                # if(start >= 175): # 2014/07
+                if(start >= pred_start):
                     #print(train_data[c*10000+m])
                     #print(train_label[c*10000+m])
                     #print(tmp)
@@ -171,7 +173,7 @@ while(end <= 264):  # 2021-12
         results['lasso_spearmanr'].append(lasso_spearmanr)
 
     last_heat = heat
-    if(start >= 175):
+    if(start >= pred_start):
         last_heat = pred_heat
     start += 6
     end += 6
