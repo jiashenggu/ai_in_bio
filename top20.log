@@ -1,0 +1,801 @@
+507    1062
+1     60 538434
+___________________________________________________________
+Result of Year   1970   :
+TOP20 CS:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & learning algorithm & 1.000000 \\
+2 & artificial intelligence & 1.000000 \\
+3 & word embedding & 0.000000 \\
+4 & wireless sensor networks & 0.000000 \\
+5 & window length & 0.000000 \\
+6 & web application & 0.000000 \\
+7 & wearable sensors & 0.000000 \\
+8 & wearable device & 0.000000 \\
+9 & wavelet transform & 0.000000 \\
+10 & wavelet packet & 0.000000 \\
+11 & wavelet features & 0.000000 \\
+12 & wavelet decomposition & 0.000000 \\
+13 & visual perception & 0.000000 \\
+14 & visual inspection & 0.000000 \\
+15 & visual features & 0.000000 \\
+16 & visual attention & 0.000000 \\
+17 & virtual screening & 0.000000 \\
+18 & virtual reality & 0.000000 \\
+19 & vehicle detection & 0.000000 \\
+20 & vector space & 0.000000 \\
+\end{tabular}
+
+ 
+TOP20 medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & young adults & 0.000000 \\
+2 & wound healing & 0.000000 \\
+3 & world health organization & 0.000000 \\
+4 & working memory & 0.000000 \\
+5 & whole slide images & 0.000000 \\
+6 & whole blood & 0.000000 \\
+7 & white matter lesions & 0.000000 \\
+8 & white matter hyperintensities & 0.000000 \\
+9 & white matter & 0.000000 \\
+10 & white blood cells & 0.000000 \\
+11 & weight loss & 0.000000 \\
+12 & water temperature & 0.000000 \\
+13 & water quality & 0.000000 \\
+14 & wastewater treatment & 0.000000 \\
+15 & waist circumference & 0.000000 \\
+16 & voxel-based morphometry & 0.000000 \\
+17 & volatile organic compounds & 0.000000 \\
+18 & voice disorders & 0.000000 \\
+19 & vital signs & 0.000000 \\
+20 & visual fields & 0.000000 \\
+\end{tabular}
+
+ 
+TOP20 cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & word embedding , young adults & 0.000000 \\
+2 & word embedding , wound healing & 0.000000 \\
+3 & word embedding , world health organization & 0.000000 \\
+4 & word embedding , working memory & 0.000000 \\
+5 & word embedding , whole slide images & 0.000000 \\
+6 & word embedding , whole blood & 0.000000 \\
+7 & word embedding , white matter lesions & 0.000000 \\
+8 & word embedding , white matter hyperintensities & 0.000000 \\
+9 & word embedding , white matter & 0.000000 \\
+10 & word embedding , white blood cells & 0.000000 \\
+11 & word embedding , weight loss & 0.000000 \\
+12 & word embedding , water temperature & 0.000000 \\
+13 & word embedding , water quality & 0.000000 \\
+14 & word embedding , wastewater treatment & 0.000000 \\
+15 & word embedding , waist circumference & 0.000000 \\
+16 & word embedding , voxel-based morphometry & 0.000000 \\
+17 & word embedding , volatile organic compounds & 0.000000 \\
+18 & word embedding , voice disorders & 0.000000 \\
+19 & word embedding , vital signs & 0.000000 \\
+20 & word embedding , visual fields & 0.000000 \\
+\end{tabular}
+
+61     120 538434
+___________________________________________________________
+Result of Year   1975   :
+TOP20 CS:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & classification & 6.000000 \\
+2 & artificial intelligence & 4.000000 \\
+3 & computer program & 3.000000 \\
+4 & pattern recognition & 2.000000 \\
+5 & multivariate classifier & 2.000000 \\
+6 & mahalanobis distance & 2.000000 \\
+7 & statistical features & 1.000000 \\
+8 & regression analysis & 1.000000 \\
+9 & regression & 1.000000 \\
+10 & nearest neighbor & 1.000000 \\
+11 & information systems & 1.000000 \\
+12 & information system & 1.000000 \\
+13 & image processing & 1.000000 \\
+14 & image analysis & 1.000000 \\
+15 & fourier transform & 1.000000 \\
+16 & feature vector & 1.000000 \\
+17 & feature extraction & 1.000000 \\
+18 & discriminant analysis & 1.000000 \\
+19 & clustering & 1.000000 \\
+20 & bayesian model & 1.000000 \\
+\end{tabular}
+
+ 
+TOP20 medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & gene & 5.000000 \\
+2 & cell morphology & 2.000000 \\
+3 & t cells & 1.000000 \\
+4 & t cell & 1.000000 \\
+5 & sleep stage & 1.000000 \\
+6 & sleep & 1.000000 \\
+7 & respiratory tract & 1.000000 \\
+8 & particle size & 1.000000 \\
+9 & mental health & 1.000000 \\
+10 & drugs & 1.000000 \\
+11 & clinical laboratory & 1.000000 \\
+12 & cell segmentation & 1.000000 \\
+13 & blood smear & 1.000000 \\
+14 & young adults & 0.000000 \\
+15 & wound healing & 0.000000 \\
+16 & world health organization & 0.000000 \\
+17 & working memory & 0.000000 \\
+18 & whole slide images & 0.000000 \\
+19 & whole blood & 0.000000 \\
+20 & white matter lesions & 0.000000 \\
+\end{tabular}
+
+ 
+TOP20 cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence , gene & 3.000000 \\
+2 & classification , gene & 2.000000 \\
+3 & regression analysis , sleep stage & 1.000000 \\
+4 & regression analysis , sleep & 1.000000 \\
+5 & regression , sleep stage & 1.000000 \\
+6 & regression , sleep & 1.000000 \\
+7 & pattern recognition , gene & 1.000000 \\
+8 & pattern recognition , cell morphology & 1.000000 \\
+9 & nearest neighbor , gene & 1.000000 \\
+10 & multivariate classifier , t cells & 1.000000 \\
+11 & multivariate classifier , t cell & 1.000000 \\
+12 & multivariate classifier , cell morphology & 1.000000 \\
+13 & mahalanobis distance , cell segmentation & 1.000000 \\
+14 & information systems , mental health & 1.000000 \\
+15 & information systems , gene & 1.000000 \\
+16 & information system , mental health & 1.000000 \\
+17 & information system , gene & 1.000000 \\
+18 & image processing , cell segmentation & 1.000000 \\
+19 & image analysis , t cells & 1.000000 \\
+20 & image analysis , t cell & 1.000000 \\
+\end{tabular}
+
+121     180 538434
+___________________________________________________________
+Result of Year   1980   :
+TOP20 CS:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence & 33.000000 \\
+2 & classification & 26.000000 \\
+3 & pattern recognition & 7.000000 \\
+4 & feature space & 5.000000 \\
+5 & nearest neighbor & 4.000000 \\
+6 & linear discriminant & 4.000000 \\
+7 & decision making & 4.000000 \\
+8 & regression & 3.000000 \\
+9 & expert system & 3.000000 \\
+10 & discriminant analysis & 3.000000 \\
+11 & decision tree & 3.000000 \\
+12 & statistical analysis & 2.000000 \\
+13 & standard deviation & 2.000000 \\
+14 & receiver operating characteristic & 2.000000 \\
+15 & patient monitoring & 2.000000 \\
+16 & maximum likelihood & 2.000000 \\
+17 & linear classifier & 2.000000 \\
+18 & knowledge base & 2.000000 \\
+19 & information system & 2.000000 \\
+20 & feature vector & 2.000000 \\
+\end{tabular}
+
+ 
+TOP20 medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & gene & 28.000000 \\
+2 & tumor & 3.000000 \\
+3 & t cell & 2.000000 \\
+4 & sleep & 2.000000 \\
+5 & clinical decision & 2.000000 \\
+6 & cancer & 2.000000 \\
+7 & age groups & 2.000000 \\
+8 & visual field & 1.000000 \\
+9 & vascular disease & 1.000000 \\
+10 & sleep stage & 1.000000 \\
+11 & single cell & 1.000000 \\
+12 & risk assessment & 1.000000 \\
+13 & peptide & 1.000000 \\
+14 & patient care & 1.000000 \\
+15 & myocardial infarction & 1.000000 \\
+16 & missing data & 1.000000 \\
+17 & lung function & 1.000000 \\
+18 & intensive care & 1.000000 \\
+19 & false positives & 1.000000 \\
+20 & event-related potentials & 1.000000 \\
+\end{tabular}
+
+ 
+TOP20 cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence , gene & 12.000000 \\
+2 & classification , gene & 8.000000 \\
+3 & pattern recognition , gene & 2.000000 \\
+4 & nearest neighbor , gene & 2.000000 \\
+5 & feature space , gene & 2.000000 \\
+6 & decision tree , gene & 2.000000 \\
+7 & artificial intelligence , clinical decision & 2.000000 \\
+8 & texture features , gene & 1.000000 \\
+9 & texture feature , gene & 1.000000 \\
+10 & texture analysis , gene & 1.000000 \\
+11 & statistical analysis , gene & 1.000000 \\
+12 & standard deviation , vascular disease & 1.000000 \\
+13 & standard deviation , tumor & 1.000000 \\
+14 & standard deviation , risk assessment & 1.000000 \\
+15 & standard deviation , cardiovascular disease & 1.000000 \\
+16 & standard deviation , blood pressure & 1.000000 \\
+17 & standard deviation , age groups & 1.000000 \\
+18 & spatial resolution , single cell & 1.000000 \\
+19 & spatial resolution , early detection & 1.000000 \\
+20 & spatial resolution , cell classification & 1.000000 \\
+\end{tabular}
+
+181     240 538434
+___________________________________________________________
+Result of Year   1985   :
+TOP20 CS:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence & 134.000000 \\
+2 & expert system & 43.000000 \\
+3 & classification & 26.000000 \\
+4 & pattern recognition & 12.000000 \\
+5 & computer program & 10.000000 \\
+6 & image processing & 9.000000 \\
+7 & knowledge base & 8.000000 \\
+8 & image analysis & 8.000000 \\
+9 & knowledge representation & 6.000000 \\
+10 & decision making & 6.000000 \\
+11 & decision tree & 5.000000 \\
+12 & computer systems & 5.000000 \\
+13 & neural network & 4.000000 \\
+14 & medical informatics & 4.000000 \\
+15 & machine learning & 4.000000 \\
+16 & linear discriminant & 4.000000 \\
+17 & information system & 4.000000 \\
+18 & decision support system & 4.000000 \\
+19 & clustering & 4.000000 \\
+20 & bayesian model & 4.000000 \\
+\end{tabular}
+
+ 
+TOP20 medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & gene & 52.000000 \\
+2 & cancer & 12.000000 \\
+3 & protein & 7.000000 \\
+4 & natural language & 7.000000 \\
+5 & t cell & 4.000000 \\
+6 & diabetes & 4.000000 \\
+7 & clinical decision & 4.000000 \\
+8 & tumor & 3.000000 \\
+9 & structure prediction & 3.000000 \\
+10 & protein structure & 3.000000 \\
+11 & patient care & 3.000000 \\
+12 & drugs & 3.000000 \\
+13 & diagnostic performance & 3.000000 \\
+14 & clinical practice & 3.000000 \\
+15 & breast cancer & 3.000000 \\
+16 & t cells & 2.000000 \\
+17 & secondary structure & 2.000000 \\
+18 & schizophrenia & 2.000000 \\
+19 & medical imaging & 2.000000 \\
+20 & medical education & 2.000000 \\
+\end{tabular}
+
+ 
+TOP20 cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence , gene & 36.000000 \\
+2 & expert system , gene & 12.000000 \\
+3 & artificial intelligence , cancer & 10.000000 \\
+4 & classification , gene & 8.000000 \\
+5 & pattern recognition , gene & 7.000000 \\
+6 & artificial intelligence , protein & 7.000000 \\
+7 & artificial intelligence , natural language & 6.000000 \\
+8 & image analysis , gene & 4.000000 \\
+9 & artificial intelligence , diabetes & 4.000000 \\
+10 & image analysis , tumor & 3.000000 \\
+11 & expert system , cancer & 3.000000 \\
+12 & artificial intelligence , structure prediction & 3.000000 \\
+13 & artificial intelligence , protein structure & 3.000000 \\
+14 & artificial intelligence , patient care & 3.000000 \\
+15 & artificial intelligence , drugs & 3.000000 \\
+16 & artificial intelligence , clinical practice & 3.000000 \\
+17 & artificial intelligence , clinical decision & 3.000000 \\
+18 & signal processing , gene & 2.000000 \\
+19 & pattern recognition , protein & 2.000000 \\
+20 & medical informatics , gene & 2.000000 \\
+\end{tabular}
+
+241     300 538434
+___________________________________________________________
+Result of Year   1990   :
+TOP20 CS:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence & 168.000000 \\
+2 & classification & 111.000000 \\
+3 & neural network & 77.000000 \\
+4 & expert system & 56.000000 \\
+5 & machine learning & 49.000000 \\
+6 & pattern recognition & 23.000000 \\
+7 & learning algorithm & 14.000000 \\
+8 & knowledge base & 14.000000 \\
+9 & decision making & 14.000000 \\
+10 & bayesian model & 12.000000 \\
+11 & discriminant analysis & 11.000000 \\
+12 & regression & 10.000000 \\
+13 & information system & 10.000000 \\
+14 & image analysis & 10.000000 \\
+15 & decision tree & 10.000000 \\
+16 & computer program & 10.000000 \\
+17 & multilayer perceptron & 9.000000 \\
+18 & natural language processing & 8.000000 \\
+19 & knowledge representation & 8.000000 \\
+20 & clustering & 8.000000 \\
+\end{tabular}
+
+ 
+TOP20 medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & gene & 110.000000 \\
+2 & protein & 24.000000 \\
+3 & cancer & 12.000000 \\
+4 & secondary structure & 11.000000 \\
+5 & clinical decision & 10.000000 \\
+6 & natural language & 9.000000 \\
+7 & molecular biology & 9.000000 \\
+8 & health care & 9.000000 \\
+9 & protein structure & 8.000000 \\
+10 & clinical data & 8.000000 \\
+11 & tumor & 7.000000 \\
+12 & diagnostic accuracy & 7.000000 \\
+13 & structure prediction & 6.000000 \\
+14 & intensive care & 6.000000 \\
+15 & human brain & 6.000000 \\
+16 & quality control & 5.000000 \\
+17 & patient care & 5.000000 \\
+18 & in vivo & 5.000000 \\
+19 & drugs & 5.000000 \\
+20 & drug design & 5.000000 \\
+\end{tabular}
+
+ 
+TOP20 cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence , gene & 51.000000 \\
+2 & classification , gene & 29.000000 \\
+3 & neural network , gene & 23.000000 \\
+4 & machine learning , gene & 22.000000 \\
+5 & expert system , gene & 16.000000 \\
+6 & machine learning , protein & 12.000000 \\
+7 & natural language processing , natural language & 8.000000 \\
+8 & machine learning , secondary structure & 8.000000 \\
+9 & learning algorithm , gene & 8.000000 \\
+10 & artificial intelligence , health care & 8.000000 \\
+11 & artificial intelligence , clinical decision & 8.000000 \\
+12 & artificial intelligence , natural language & 7.000000 \\
+13 & bayesian model , gene & 6.000000 \\
+14 & artificial intelligence , protein & 6.000000 \\
+15 & neural network , protein & 5.000000 \\
+16 & neural network , human brain & 5.000000 \\
+17 & machine learning , structure prediction & 5.000000 \\
+18 & machine learning , protein structure & 5.000000 \\
+19 & knowledge representation , gene & 5.000000 \\
+20 & expert system , clinical decision & 5.000000 \\
+\end{tabular}
+
+301     360 538434
+___________________________________________________________
+Result of Year   1995   :
+TOP20 CS:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & classification & 207.000000 \\
+2 & artificial intelligence & 180.000000 \\
+3 & neural network & 170.000000 \\
+4 & machine learning & 83.000000 \\
+5 & expert system & 37.000000 \\
+6 & regression & 34.000000 \\
+7 & receiver operating characteristic & 31.000000 \\
+8 & pattern recognition & 31.000000 \\
+9 & discriminant analysis & 30.000000 \\
+10 & genetic algorithm & 28.000000 \\
+11 & decision tree & 28.000000 \\
+12 & learning algorithm & 26.000000 \\
+13 & image analysis & 21.000000 \\
+14 & logistic regression & 19.000000 \\
+15 & multilayer perceptron & 17.000000 \\
+16 & linear discriminant & 16.000000 \\
+17 & nearest neighbor & 14.000000 \\
+18 & feature selection & 14.000000 \\
+19 & clustering & 14.000000 \\
+20 & texture feature & 13.000000 \\
+\end{tabular}
+
+ 
+TOP20 medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & gene & 176.000000 \\
+2 & cancer & 29.000000 \\
+3 & protein & 28.000000 \\
+4 & tumor & 23.000000 \\
+5 & health care & 18.000000 \\
+6 & diagnostic performance & 11.000000 \\
+7 & prostate & 10.000000 \\
+8 & diagnostic accuracy & 10.000000 \\
+9 & clinical data & 10.000000 \\
+10 & myocardial infarction & 9.000000 \\
+11 & clinical practice & 9.000000 \\
+12 & t cell & 8.000000 \\
+13 & natural language & 8.000000 \\
+14 & breast cancer & 8.000000 \\
+15 & medical image & 7.000000 \\
+16 & drugs & 7.000000 \\
+17 & t cells & 6.000000 \\
+18 & risk factor & 6.000000 \\
+19 & human brain & 6.000000 \\
+20 & high risk & 6.000000 \\
+\end{tabular}
+
+ 
+TOP20 cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & classification , gene & 69.000000 \\
+2 & neural network , gene & 55.000000 \\
+3 & artificial intelligence , gene & 55.000000 \\
+4 & machine learning , gene & 37.000000 \\
+5 & genetic algorithm , gene & 28.000000 \\
+6 & receiver operating characteristic , gene & 13.000000 \\
+7 & expert system , gene & 13.000000 \\
+8 & artificial intelligence , health care & 13.000000 \\
+9 & regression , gene & 12.000000 \\
+10 & classification , cancer & 12.000000 \\
+11 & machine learning , protein & 10.000000 \\
+12 & pattern recognition , gene & 9.000000 \\
+13 & decision tree , gene & 9.000000 \\
+14 & classification , diagnostic performance & 9.000000 \\
+15 & learning algorithm , gene & 8.000000 \\
+16 & feature selection , gene & 8.000000 \\
+17 & discriminant analysis , gene & 8.000000 \\
+18 & texture feature , gene & 7.000000 \\
+19 & statistical method , gene & 7.000000 \\
+20 & neural network , cancer & 7.000000 \\
+\end{tabular}
+
+361     420 538434
+___________________________________________________________
+Result of Year   2000   :
+TOP20 CS:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & classification & 435.000000 \\
+2 & neural network & 273.000000 \\
+3 & machine learning & 244.000000 \\
+4 & artificial intelligence & 234.000000 \\
+5 & support vector machine & 95.000000 \\
+6 & learning algorithm & 70.000000 \\
+7 & decision tree & 65.000000 \\
+8 & regression & 61.000000 \\
+9 & discriminant analysis & 59.000000 \\
+10 & cross-validation & 53.000000 \\
+11 & genetic algorithm & 48.000000 \\
+12 & linear discriminant & 46.000000 \\
+13 & receiver operating characteristic & 44.000000 \\
+14 & supervised learning & 42.000000 \\
+15 & clustering & 40.000000 \\
+16 & pattern recognition & 39.000000 \\
+17 & feature selection & 39.000000 \\
+18 & data mining & 39.000000 \\
+19 & nearest neighbor & 35.000000 \\
+20 & feature extraction & 32.000000 \\
+\end{tabular}
+
+ 
+TOP20 medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & gene & 478.000000 \\
+2 & protein & 132.000000 \\
+3 & cancer & 121.000000 \\
+4 & gene expression & 71.000000 \\
+5 & tumor & 54.000000 \\
+6 & expression profiles & 25.000000 \\
+7 & prostate & 23.000000 \\
+8 & prostate cancer & 19.000000 \\
+9 & breast cancer & 19.000000 \\
+10 & mass spectrometry & 18.000000 \\
+11 & protein sequence & 17.000000 \\
+12 & magnetic resonance & 17.000000 \\
+13 & gene expression profile & 17.000000 \\
+14 & protein structure & 16.000000 \\
+15 & t cell & 15.000000 \\
+16 & natural language & 15.000000 \\
+17 & secondary structure & 14.000000 \\
+18 & health care & 14.000000 \\
+19 & structure prediction & 13.000000 \\
+20 & sleep & 13.000000 \\
+\end{tabular}
+
+ 
+TOP20 cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & classification , gene & 195.000000 \\
+2 & machine learning , gene & 138.000000 \\
+3 & neural network , gene & 109.000000 \\
+4 & artificial intelligence , gene & 84.000000 \\
+5 & classification , cancer & 61.000000 \\
+6 & machine learning , protein & 55.000000 \\
+7 & genetic algorithm , gene & 48.000000 \\
+8 & classification , protein & 45.000000 \\
+9 & support vector machine , gene & 44.000000 \\
+10 & classification , gene expression & 43.000000 \\
+11 & learning algorithm , gene & 39.000000 \\
+12 & decision tree , gene & 38.000000 \\
+13 & classification , tumor & 33.000000 \\
+14 & neural network , protein & 32.000000 \\
+15 & support vector machine , protein & 31.000000 \\
+16 & supervised learning , gene & 31.000000 \\
+17 & cross-validation , gene & 29.000000 \\
+18 & neural network , cancer & 27.000000 \\
+19 & discriminant analysis , gene & 25.000000 \\
+20 & clustering , gene & 25.000000 \\
+\end{tabular}
+
+421     480 538434
+___________________________________________________________
+Result of Year   2005   :
+TOP20 CS:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & classification & 1603.000000 \\
+2 & machine learning & 1219.000000 \\
+3 & support vector machine & 811.000000 \\
+4 & neural network & 592.000000 \\
+5 & artificial intelligence & 301.000000 \\
+6 & learning algorithm & 294.000000 \\
+7 & cross-validation & 277.000000 \\
+8 & regression & 244.000000 \\
+9 & feature selection & 225.000000 \\
+10 & clustering & 203.000000 \\
+11 & nearest neighbor & 192.000000 \\
+12 & bayesian model & 183.000000 \\
+13 & discriminant analysis & 175.000000 \\
+14 & linear discriminant & 160.000000 \\
+15 & receiver operating characteristic & 159.000000 \\
+16 & decision tree & 151.000000 \\
+17 & pattern recognition & 142.000000 \\
+18 & feature extraction & 142.000000 \\
+19 & supervised learning & 131.000000 \\
+20 & genetic algorithm & 114.000000 \\
+\end{tabular}
+
+ 
+TOP20 medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & gene & 1764.000000 \\
+2 & protein & 725.000000 \\
+3 & cancer & 502.000000 \\
+4 & gene expression & 339.000000 \\
+5 & tumor & 248.000000 \\
+6 & protein sequence & 134.000000 \\
+7 & breast cancer & 127.000000 \\
+8 & peptide & 123.000000 \\
+9 & expression profiles & 112.000000 \\
+10 & mass spectrometry & 109.000000 \\
+11 & protein structure & 106.000000 \\
+12 & gene expression profile & 93.000000 \\
+13 & protein sequences & 88.000000 \\
+14 & magnetic resonance & 86.000000 \\
+15 & secondary structure & 76.000000 \\
+16 & drugs & 73.000000 \\
+17 & protein interaction & 59.000000 \\
+18 & protein function & 59.000000 \\
+19 & false positives & 57.000000 \\
+20 & chemical properties & 57.000000 \\
+\end{tabular}
+
+ 
+TOP20 cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & classification , gene & 712.000000 \\
+2 & machine learning , gene & 595.000000 \\
+3 & support vector machine , gene & 364.000000 \\
+4 & machine learning , protein & 336.000000 \\
+5 & classification , cancer & 257.000000 \\
+6 & classification , protein & 224.000000 \\
+7 & neural network , gene & 221.000000 \\
+8 & support vector machine , protein & 210.000000 \\
+9 & cross-validation , gene & 152.000000 \\
+10 & classification , gene expression & 143.000000 \\
+11 & learning algorithm , gene & 140.000000 \\
+12 & clustering , gene & 125.000000 \\
+13 & regression , gene & 115.000000 \\
+14 & genetic algorithm , gene & 114.000000 \\
+15 & classification , tumor & 113.000000 \\
+16 & machine learning , cancer & 111.000000 \\
+17 & artificial intelligence , gene & 109.000000 \\
+18 & support vector machine , cancer & 107.000000 \\
+19 & feature selection , gene & 107.000000 \\
+20 & neural network , protein & 97.000000 \\
+\end{tabular}
+
+481     540 538434
+___________________________________________________________
+Result of Year   2010   :
+TOP20 CS:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & classification & 2869.000000 \\
+2 & machine learning & 2655.000000 \\
+3 & support vector machine & 1522.000000 \\
+4 & regression & 639.000000 \\
+5 & neural network & 636.000000 \\
+6 & learning algorithm & 589.000000 \\
+7 & cross-validation & 567.000000 \\
+8 & feature selection & 478.000000 \\
+9 & random forest & 397.000000 \\
+10 & clustering & 304.000000 \\
+11 & receiver operating characteristic & 303.000000 \\
+12 & artificial intelligence & 302.000000 \\
+13 & supervised learning & 289.000000 \\
+14 & bayesian model & 287.000000 \\
+15 & discriminant analysis & 274.000000 \\
+16 & decision tree & 270.000000 \\
+17 & nearest neighbor & 264.000000 \\
+18 & feature extraction & 242.000000 \\
+19 & logistic regression & 234.000000 \\
+20 & linear discriminant & 228.000000 \\
+\end{tabular}
+
+ 
+TOP20 medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & gene & 3007.000000 \\
+2 & protein & 1149.000000 \\
+3 & cancer & 792.000000 \\
+4 & gene expression & 464.000000 \\
+5 & tumor & 356.000000 \\
+6 & magnetic resonance & 242.000000 \\
+7 & peptide & 221.000000 \\
+8 & breast cancer & 221.000000 \\
+9 & drugs & 182.000000 \\
+10 & protein interaction & 172.000000 \\
+11 & protein sequence & 157.000000 \\
+12 & mass spectrometry & 128.000000 \\
+13 & protein-protein interaction & 126.000000 \\
+14 & natural language & 119.000000 \\
+15 & t cell & 117.000000 \\
+16 & protein structure & 109.000000 \\
+17 & expression profiles & 106.000000 \\
+18 & drug discovery & 104.000000 \\
+19 & clinical data & 100.000000 \\
+20 & in vivo & 99.000000 \\
+\end{tabular}
+
+ 
+TOP20 cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & machine learning , gene & 1134.000000 \\
+2 & classification , gene & 1098.000000 \\
+3 & support vector machine , gene & 594.000000 \\
+4 & machine learning , protein & 572.000000 \\
+5 & classification , cancer & 335.000000 \\
+6 & regression , gene & 301.000000 \\
+7 & classification , protein & 287.000000 \\
+8 & support vector machine , protein & 271.000000 \\
+9 & cross-validation , gene & 265.000000 \\
+10 & learning algorithm , gene & 256.000000 \\
+11 & feature selection , gene & 215.000000 \\
+12 & neural network , gene & 207.000000 \\
+13 & machine learning , cancer & 205.000000 \\
+14 & random forest , gene & 195.000000 \\
+15 & support vector machine , cancer & 190.000000 \\
+16 & classification , gene expression & 165.000000 \\
+17 & clustering , gene & 152.000000 \\
+18 & classification , tumor & 142.000000 \\
+19 & classification , magnetic resonance & 135.000000 \\
+20 & genetic algorithm , gene & 133.000000 \\
+\end{tabular}
+
+541     600 538434
+___________________________________________________________
+Result of Year   2015   :
+TOP20 CS:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & machine learning & 11285.000000 \\
+2 & classification & 7919.000000 \\
+3 & neural network & 4850.000000 \\
+4 & support vector machine & 3622.000000 \\
+5 & deep learning & 3359.000000 \\
+6 & regression & 2819.000000 \\
+7 & learning algorithm & 2752.000000 \\
+8 & random forest & 2278.000000 \\
+9 & artificial intelligence & 2075.000000 \\
+10 & convolution neural network & 2004.000000 \\
+11 & cross-validation & 1548.000000 \\
+12 & receiver operating characteristic & 1293.000000 \\
+13 & feature selection & 1255.000000 \\
+14 & supervised learning & 1057.000000 \\
+15 & logistic regression & 1051.000000 \\
+16 & clustering & 895.000000 \\
+17 & feature extraction & 869.000000 \\
+18 & decision tree & 729.000000 \\
+19 & big data & 657.000000 \\
+20 & nearest neighbor & 627.000000 \\
+\end{tabular}
+
+ 
+TOP20 medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & gene & 10595.000000 \\
+2 & cancer & 3078.000000 \\
+3 & protein & 2326.000000 \\
+4 & tumor & 1456.000000 \\
+5 & magnetic resonance & 1037.000000 \\
+6 & gene expression & 964.000000 \\
+7 & drugs & 663.000000 \\
+8 & breast cancer & 618.000000 \\
+9 & clinical practice & 496.000000 \\
+10 & natural language & 482.000000 \\
+11 & computed tomography & 447.000000 \\
+12 & clinical data & 441.000000 \\
+13 & clinical trial & 440.000000 \\
+14 & health care & 435.000000 \\
+15 & clinical decision & 411.000000 \\
+16 & peptide & 399.000000 \\
+17 & electronic health record & 397.000000 \\
+18 & risk factor & 395.000000 \\
+19 & early detection & 372.000000 \\
+20 & drug discovery & 372.000000 \\
+\end{tabular}
+
+ 
+TOP20 cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & machine learning , gene & 4663.000000 \\
+2 & classification , gene & 2933.000000 \\
+3 & neural network , gene & 1792.000000 \\
+4 & deep learning , gene & 1279.000000 \\
+5 & support vector machine , gene & 1263.000000 \\
+6 & machine learning , protein & 1142.000000 \\
+7 & regression , gene & 1136.000000 \\
+8 & learning algorithm , gene & 1087.000000 \\
+9 & machine learning , cancer & 1073.000000 \\
+10 & classification , cancer & 993.000000 \\
+11 & random forest , gene & 934.000000 \\
+12 & artificial intelligence , gene & 704.000000 \\
+13 & convolution neural network , gene & 682.000000 \\
+14 & cross-validation , gene & 619.000000 \\
+15 & feature selection , gene & 541.000000 \\
+16 & neural network , cancer & 496.000000 \\
+17 & classification , tumor & 487.000000 \\
+18 & supervised learning , gene & 483.000000 \\
+19 & machine learning , tumor & 483.000000 \\
+20 & receiver operating characteristic , gene & 478.000000 \\
+\end{tabular}
+

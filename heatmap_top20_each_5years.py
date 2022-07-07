@@ -27,26 +27,24 @@ dict={}
 last_conbine="hahhahahahahahahaha"
 with open("cs1000_combine.txt") as f:
     for line in f:
-        if(line.find('_')!=-1):
-            pos=line.strip().find(':')
-            conbine=re.sub(r'_',' ',line.strip().lower()[pos+1:])
-            if(conbine!=last_conbine):
-                tot_cs+=1
-            last_conbine=conbine
-            C.add_word(re.sub(r'_',' ',line.strip().lower()[:pos]),tot_cs)
-            dict[tot_cs]=conbine
+        pos=line.strip().find(':')
+        conbine=re.sub(r'_',' ',line.strip().lower()[pos+1:])
+        if(conbine!=last_conbine):
+            tot_cs+=1
+        last_conbine=conbine
+        C.add_word(re.sub(r'_',' ',line.strip().lower()[:pos]),tot_cs)
+        dict[tot_cs]=conbine
         
 
 with open("medical1000_combine.txt") as f:
     for line in f:
-        if(line.find('_')!=-1):
-            pos=line.strip().find(':')
-            conbine=re.sub(r'_',' ',line.strip().lower()[pos+1:])
-            if(conbine!=last_conbine):
-                tot_medical+=1
-            last_conbine=conbine
-            M.add_word(re.sub(r'_',' ',line.strip().lower()[:pos]),tot_medical)
-            dict[5000+tot_medical]=conbine
+        pos=line.strip().find(':')
+        conbine=re.sub(r'_',' ',line.strip().lower()[pos+1:])
+        if(conbine!=last_conbine):
+            tot_medical+=1
+        last_conbine=conbine
+        M.add_word(re.sub(r'_',' ',line.strip().lower()[:pos]),tot_medical)
+        dict[5000+tot_medical]=conbine
 
 
 C.make_automaton()
@@ -71,7 +69,8 @@ for c in range(1,tot_cs+1):
         train_label[c*10000+m]=[]
         test_data[c*10000+m]=[]
         test_label[c*10000+m]=[]
-while(end<=600):#234: 2019-12
+# while(end<=600):#234: 2019-12
+while(end <= 624): # 2021-12
     print(start,"   ",end, len(train_label))
     #for c in range(1,tot_cs+1):
     #    for m in range(1,tot_medical+1):
@@ -110,8 +109,15 @@ while(end<=600):#234: 2019-12
         tmp.append(cs[c])
         name.append(dict[c])
     tmp,name=zip(*sorted(zip(tmp, name)))
+    names = []
+    tmps = []
     for i in range(20):
-        print(name[len(name)-1-i],":",tmp[len(name)-1-i])
+        names.append(name[len(name)-1-i])
+        tmps.append(tmp[len(name)-1-i])
+        # print(name[len(name)-1-i],":",tmp[len(name)-1-i])
+    df = pd.DataFrame({'name': names, 'counts': tmps})
+    df.index = range(1, 21)
+    print(df.style.to_latex())
     print(" ")
     print("TOP20 medical:")
     tmp=[]
@@ -120,8 +126,15 @@ while(end<=600):#234: 2019-12
         tmp.append(medical[m])
         name.append(dict[m+5000])
     tmp,name=zip(*sorted(zip(tmp, name)))
+    names = []
+    tmps = []
     for i in range(20):
-        print(name[len(name)-1-i],":",tmp[len(name)-1-i])
+        names.append(name[len(name)-1-i])
+        tmps.append(tmp[len(name)-1-i])
+        # print(name[len(name)-1-i],":",tmp[len(name)-1-i])
+    df = pd.DataFrame({'name': names, 'counts': tmps})
+    df.index = range(1, 21)
+    print(df.style.to_latex())
     print(" ")  
     print("TOP20 cs&medical:")
     tmp=[]
@@ -131,8 +144,15 @@ while(end<=600):#234: 2019-12
             tmp.append(heat[c,m])
             name.append(dict[c]+" , "+dict[m+5000])
     tmp,name=zip(*sorted(zip(tmp, name)))
+    names = []
+    tmps = []
     for i in range(20):
-        print(name[len(name)-1-i],":",tmp[len(name)-1-i])
+        names.append(name[len(name)-1-i])
+        tmps.append(tmp[len(name)-1-i])
+        # print(name[len(name)-1-i],":",tmp[len(name)-1-i])
+    df = pd.DataFrame({'name': names, 'counts': tmps})
+    df.index = range(1, 21)
+    print(df.style.to_latex())
     start+=60
     end+=60
 

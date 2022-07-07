@@ -29,4 +29,20 @@ pubmed_figure.ipynb                         Jupyter notebook for generating all 
 
 
 
+mesh wikipedia 47000 700
+for c in range(0,tot_cs+1):
+    for m in range(0,tot_medical+1):
+for c in range(1,tot_cs+1):
+    for m in range(1,tot_medical+1):
+
+
+difference between true predict
+
+1. top 20 combinations of AI technologies and biomedical increasing in last 5 years
+2. top 20 combinations of AI technologies and biomedical decreasing in last 5 years
+3. predicted top 20 combinations increasing in future 5 years
+4. predicted top 20 combinations increasing in future 5 years
+
+We need to speculate as to why we think the predicted decrease/increase will happen
+
 

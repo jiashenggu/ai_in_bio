@@ -27,24 +27,24 @@ dict={}
 last_conbine="hahhahahahahahahaha"
 with open("cs1000_combine.txt") as f:
     for line in f:
-            pos=line.strip().find(':')
-            conbine=re.sub(r'_',' ',line.strip().lower()[pos+1:])
-            if(conbine!=last_conbine):
-                tot_cs+=1
-            last_conbine=conbine
-            C.add_word(re.sub(r'_',' ',line.strip().lower()[:pos]),tot_cs)
-            dict[tot_cs]=conbine
+        pos=line.strip().find(':')
+        conbine=re.sub(r'_',' ',line.strip().lower()[pos+1:])
+        if(conbine!=last_conbine):
+            tot_cs+=1
+        last_conbine=conbine
+        C.add_word(re.sub(r'_',' ',line.strip().lower()[:pos]),tot_cs)
+        dict[tot_cs]=conbine
         
 
 with open("medical1000_combine.txt") as f:
     for line in f:
-            pos=line.strip().find(':')
-            conbine=re.sub(r'_',' ',line.strip().lower()[pos+1:])
-            if(conbine!=last_conbine):
-                tot_medical+=1
-            last_conbine=conbine
-            M.add_word(re.sub(r'_',' ',line.strip().lower()[:pos]),tot_medical)
-            dict[5000+tot_medical]=conbine
+        pos=line.strip().find(':')
+        conbine=re.sub(r'_',' ',line.strip().lower()[pos+1:])
+        if(conbine!=last_conbine):
+            tot_medical+=1
+        last_conbine=conbine
+        M.add_word(re.sub(r'_',' ',line.strip().lower()[:pos]),tot_medical)
+        dict[5000+tot_medical]=conbine
 
 
 C.make_automaton()

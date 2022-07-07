@@ -1,0 +1,669 @@
+remote_sensing      remote sensing      0
+electronic_nose      electronic nose      1
+sensor_array      sensor array      2
+motion_capture      motion capture      3
+inertial_measurement_unit      inertial measurement unit      4
+gait_analysis      gait analysis      5
+inertial_sensors      inertial sensors      6
+surface_electromyography      surface electromyography      7
+wearable_sensors      wearable sensors      8
+wearable_device      wearable device      9
+social_network      social network      10
+social_media      social media      11
+virtual_reality      virtual reality      12
+augmented_reality      augmented reality      13
+mobile_phones      mobile phones      14
+mobile_devices      mobile devices      15
+diffusion_tensor_imaging      diffusion tensor imaging      16
+resting-state_fmri      resting-state fmri      17
+structural_mri      structural mri      18
+resting-state_functional_magnetic_resonance_imaging      resting-state functional magnetic resonance imaging      19
+functional_mri      functional mri      20
+structural_magnetic_resonance_imaging      structural magnetic resonance imaging      21
+functional_magnetic_resonance_imaging      functional magnetic resonance imaging      22
+brain_imaging      brain imaging      23
+functional_neuroimaging      functional neuroimaging      24
+effective_connectivity      effective connectivity      25
+mri_images      mri images      26
+motor_imagery      motor imagery      27
+brain-computer_interface      brain-computer interface      28
+brain_computer_interface      brain computer interface      29
+remote_monitoring      remote monitoring      30
+patient_monitoring      patient monitoring      31
+wireless_sensor_networks      wireless sensor networks      32
+control_systems      control systems      33
+monitoring_systems      monitoring systems      34
+data_extraction      data extraction      35
+data_collection      data collection      36
+mobile_health      mobile health      37
+smart_home      smart home      38
+data_management      data management      39
+data_quality      data quality      40
+paradigm_shift      paradigm shift      41
+functional_genomics      functional genomics      42
+personalized_medicine      personalized medicine      43
+precision_medicine      precision medicine      44
+systems_biology      systems biology      45
+synthetic_biology      synthetic biology      46
+human-computer_interaction      human-computer interaction      47
+cognitive_neuroscience      cognitive neuroscience      48
+computational_neuroscience      computational neuroscience      49
+cognitive_science      cognitive science      50
+data_sharing      data sharing      51
+cloud_computing      cloud computing      52
+information_technology      information technology      53
+medical_informatics      medical informatics      54
+health_informatics      health informatics      55
+big_data      big data      56
+data_science      data science      57
+emerging_technologies      emerging technologies      58
+information_systems      information systems      59
+computer_systems      computer systems      60
+intelligent_systems      intelligent systems      61
+evidence-based_medicine      evidence-based medicine      62
+computational_intelligence      computational intelligence      63
+information_system      information system      64
+big_data_analysis      big data analysis      65
+predictive_analytics      predictive analytics      66
+electronic_health_records      electronic health records      67
+electronic_medical_record      electronic medical record      68
+artificial_intelligence      artificial intelligence      69
+medical_data      medical data      70
+data_sources      data sources      71
+physiological_data      physiological data      72
+medical_decision_making      medical decision making      73
+data_streams      data streams      74
+high-throughput_technologies      high-throughput technologies      75
+large_databases      large databases      76
+decision_making      decision making      77
+decision_support_systems      decision support systems      78
+human_cognition      human cognition      79
+free_text      free text      80
+human_intelligence      human intelligence      81
+online_learning      online learning      82
+decision_support_system      decision support system      83
+active_learning      active learning      84
+web_application      web application      85
+knowledge_acquisition      knowledge acquisition      86
+knowledge_base      knowledge base      87
+knowledge_representation      knowledge representation      88
+expert_system      expert system      89
+computer_program      computer program      90
+motor_control      motor control      91
+visual_perception      visual perception      92
+visual_attention      visual attention      93
+knowledge_discovery      knowledge discovery      94
+annotated_data      annotated data      95
+knowledge_extraction      knowledge extraction      96
+reinforcement_learning      reinforcement learning      97
+statistical_learning      statistical learning      98
+facial_expression      facial expression      99
+object_recognition      object recognition      100
+annotated_corpus      annotated corpus      101
+emotion_recognition      emotion recognition      102
+face_recognition      face recognition      103
+data_mining      data mining      104
+text_mining      text mining      105
+novelty_detection      novelty detection      106
+natural_language_processing      natural language processing      107
+machine_learning      machine learning      108
+deep_learning      deep learning      109
+information_extraction      information extraction      110
+action_recognition      action recognition      111
+named_entity_recognition      named entity recognition      112
+relation_extraction      relation extraction      113
+unified_medical_language_system      unified medical language system      114
+sentiment_analysis      sentiment analysis      115
+computer_vision      computer vision      116
+text_classification      text classification      117
+activity_recognition      activity recognition      118
+human_activity_recognition      human activity recognition      119
+pose_estimation      pose estimation      120
+object_detection      object detection      121
+image_recognition      image recognition      122
+machine_vision      machine vision      123
+fall_detection      fall detection      124
+concept_extraction      concept extraction      125
+image_retrieval      image retrieval      126
+image_annotation      image annotation      127
+pattern_recognition      pattern recognition      128
+vehicle_detection      vehicle detection      129
+semantic_segmentation      semantic segmentation      130
+anomaly_detection      anomaly detection      131
+event_detection      event detection      132
+seizure_detection      seizure detection      133
+data_fusion      data fusion      134
+spike_sorting      spike sorting      135
+diagnosis_system      diagnosis system      136
+computer-aided_diagnosis      computer-aided diagnosis      137
+disease_detection      disease detection      138
+signal_processing      signal processing      139
+computer_aided_diagnosis      computer aided diagnosis      140
+computer-aided_detection      computer-aided detection      141
+signal_detection      signal detection      142
+automated_diagnosis      automated diagnosis      143
+automated_assessment      automated assessment      144
+lesion_detection      lesion detection      145
+automatic_segmentation      automatic segmentation      146
+automated_segmentation      automatic segmentation      146
+image_enhancement      image enhancement      147
+image_processing      image processing      148
+image_registration      image registration      149
+image_acquisition      image acquisition      150
+image_analysis      image analysis      151
+image_segmentation      image segmentation      152
+edge_detection      edge detection      153
+image_reconstruction      image reconstruction      154
+attenuation_correction      attenuation correction      155
+iterative_reconstruction      iterative reconstruction      156
+search_engine      search engine      157
+tissue_characterization      tissue characterization      158
+quantitative_imaging      quantitative imaging      159
+spatial_resolution      spatial resolution      160
+recognition_system      recognition system      161
+ultrasound_imaging      ultrasound imaging      162
+hyperspectral_imaging      hyperspectral imaging      163
+database_search      database search      164
+quantitative_evaluation      quantitative evaluation      165
+peptide_identification      peptide identification      166
+raman_spectroscopy      raman spectroscopy      167
+quantitative_analysis      quantitative analysis      168
+visual_inspection      visual inspection      169
+tandem_mass_spectrometry      tandem mass spectrometry      170
+next-generation_sequencing      next generation sequencing      171
+next_generation_sequencing      next generation sequencing      171
+high-throughput_sequencing      high-throughput sequencing      172
+deep_sequencing      deep sequencing      173
+complex_systems      complex systems      174
+complex_networks      complex networks      175
+graph_theory      graph theory      176
+dynamical_systems      dynamical systems      177
+information_theory      information theory      178
+nonlinear_dynamics      nonlinear dynamics      179
+functional_networks      functional networks      180
+network_analysis      network analysis      181
+functional_annotation      functional annotation      182
+pathway_analysis      pathway analysis      183
+functional_analysis      functional analysis      184
+high-throughput_screening      high-throughput screening      185
+computational_analysis      computational analysis      186
+target_identification      target identification      187
+sequence_alignment      sequence alignment      188
+multiple_sequence_alignment      multiple sequence alignment      189
+virtual_screening      virtual screening      190
+computational_modeling      computational modeling      191
+computational_chemistry      computational chemistry      192
+lead_optimization      lead optimization      193
+computational_models      computational models      194
+computational_methods      computational methods      195
+in_silico      in silico      196
+predictive_modeling      predictive modeling      197
+computational_algorithms      computational algorithms      198
+molecular_design      molecular design      199
+predictive_models      predictive models      200
+statistical_methods      statistical methods      201
+prognostic_models      prognostic models      202
+qsar_models      qsar models      203
+statistical_models      statistical models      204
+risk_scores      risk scores      205
+prognostic_model      prognostic model      206
+risk_model      risk model      207
+statistical_modeling      statistical modeling      208
+applicability_domain      applicability domain      209
+scoring_system      scoring system      210
+risk_adjustment      risk adjustment      211
+quantitative_structure-activity_relationship      quantitative structure-activity relationship      212
+ab_initio      ab initio      213
+structure-activity_relationships      structure-activity relationships      214
+density_functional_theory      density functional theory      215
+drug-target_interactions      drug-target interactions      216
+content_analysis      content analysis      217
+power_consumption      energy consumption      218
+energy_consumption      energy consumption      218
+computational_complexity      computational complexity      219
+case-based_reasoning      case-based reasoning      220
+reservoir_computing      reservoir computing      221
+performance_analysis      performance analysis      222
+computer-aided_diagnosis_system      computer-aided diagnosis system      223
+physicochemical_properties      physicochemical properties      224
+structural_features      structural features      225
+robust_classification      robust classification      226
+morphological_features      morphological features      227
+expression_patterns      expression patterns      228
+classifier_fusion      classifier fusion      229
+hierarchical_classifier      hierarchical classifier      230
+mit-bih_arrhythmia_database      mit-bih arrhythmia database      231
+prior_knowledge      prior knowledge      232
+multivariate_classifier      multivariate classifier      233
+temporal_patterns      temporal patterns      234
+classifier_design      classifier design      235
+dynamic_features      dynamic features      236
+spatial_information      spatial information      237
+fold_recognition      fold recognition      238
+temporal_features      temporal features      239
+position-specific_scoring_matrix      position-specific scoring matrix      240
+channel_selection      channel selection      241
+feature_analysis      feature analysis      242
+visual_features      visual features      243
+time_series      time series      244
+signal_features      signal features      245
+texture_analysis      texture analysis      246
+image_features      image features      247
+frequency_band      frequency band      248
+statistical_features      statistical features      249
+shape_features      shape features      250
+textural_features      textural features      251
+texture_features      texture features      252
+power_spectrum      power spectrum      253
+spectral_analysis      spectral analysis      254
+power_spectral_density      power spectral density      255
+semantic_features      semantic features      256
+texture_descriptors      texture descriptors      257
+fractal_dimension      fractal dimension      258
+texture_feature      texture feature      259
+gray_level_co-occurrence_matrix      gray level co-occurrence matrix      260
+gray-level_co-occurrence_matrix      gray level co-occurrence matrix      260
+fourier_transform      fourier transform      261
+frequency_domain      frequency domain      262
+wavelet_features      wavelet features      263
+local_binary_patterns      local binary patterns      264
+sample_entropy      sample entropy      265
+approximate_entropy      approximate entropy      266
+local_binary_pattern      local binary pattern      267
+intrinsic_mode_functions      intrinsic mode functions      268
+deep_features      deep features      269
+discrete_cosine_transform      discrete cosine transform      270
+wavelet_packet      wavelet packet      271
+continuous_wavelet_transform      continuous wavelet transform      272
+statistical_analysis      statistical analysis      273
+wavelet_transform      wavelet transform      274
+discrete_wavelet_transform      discrete wavelet transform      275
+wavelet_decomposition      wavelet decomposition      276
+empirical_mode_decomposition      empirical mode decomposition      277
+common_spatial_pattern      common spatial pattern      278
+pattern_matching      pattern matching      279
+template_matching      template matching      280
+data-driven_methods      data-driven methods      281
+region_growing      region growing      282
+minimum_redundancy_maximum_relevance      minimum redundancy maximum relevance      283
+dynamic_time_warping      dynamic time warping      284
+active_contour      active contour      285
+semantic_similarity      semantic similarity      286
+clustering      clustering      287
+independent_component_analysis      independent component analysis      288
+mutual_information      mutual information      289
+cluster_analysis      cluster analysis      290
+clustering_algorithms      clustering algorithms      291
+hierarchical_clustering      hierarchical clustering      292
+factor_analysis      factor analysis      293
+similarity_measure      similarity measure      294
+unsupervised_clustering      unsupervised clustering      295
+principal_component_analysis      principle component analysis      296
+principle_component_analysis      principle component analysis      296
+data_reduction      data reduction      297
+euclidean_distance      euclidean distance      298
+feature_extraction      feature extraction      299
+mahalanobis_distance      mahalanobis distance      300
+singular_value_decomposition      singular value decomposition      301
+classification      classification      302
+canonical_correlation_analysis      canonical correlation analysis      303
+dimension_reduction      dimension reduction      304
+k-means      k-means      305
+hierarchical_classification      hierarchical classification      306
+high-dimensional_data      high-dimensional data      307
+multivariate_pattern_analysis      multivariate pattern analysis      308
+feature_selection      feature selection      309
+optimal_features      optimal features      310
+feature_reduction      feature reduction      311
+jackknife_test      jackknife test      312
+feature_ranking      feature ranking      313
+non-negative_matrix_factorization      non-negative matrix factorization      314
+shape_model      shape model      315
+recursive_feature_elimination      recursive feature elimination      316
+appearance_model      appearance model      317
+feature_vector      feature vector      318
+feature_space      feature space      319
+feature_combination      feature combination      320
+vector_space      vector space      321
+matrix_factorization      matrix factorization      322
+fuzzy_c-means      fuzzy c-means      323
+sparse_representation      sparse representation      324
+manifold_learning      manifold learning      325
+supervised_classification      supervised classification      326
+dictionary_learning      dictionary learning      327
+sparse_coding      sparse coding      328
+unsupervised_learning      unsupervised learning      329
+self-organizing_maps      self-organizing maps      330
+feature_representation      feature representation      331
+supervised_machine_learning      supervised learning      332
+supervised_learning      supervised learning      332
+topic_modeling      topic modeling      333
+topic_models      topic modeling      333
+self-organizing_map      self-organizing map      334
+metric_learning      metric learning      335
+feature_learning      feature learning      336
+semi-supervised_learning      semi-supervised learning      337
+domain_adaptation      domain adaptation      338
+multiple_kernel_learning      multiple kernel learning      339
+representation_learning      representation learning      340
+latent_dirichlet_allocation      latent dirichlet allocation      341
+transfer_learning      transfer learning      342
+multiple_instance_learning      multiple instance learning      343
+word_embedding      word embedding      344
+feature_fusion      feature fusion      345
+multi-task_learning      multitask learning      346
+multitask_learning      multitask learning      346
+bag_of_words      bag of words      347
+incremental_learning      incremental learning      348
+generative_adversarial_network      generative adversarial network      349
+attention_mechanism      attention mechanism      350
+fuzzy_classifier      fuzzy classifier      351
+hybrid_classifier      hybrid classifier      352
+fully_convolutional_network      convolution neural network      353
+convolution_neural_network      convolution neural network      353
+convolutional_networks      convolution neural network      353
+convolutional_neural_network      convolution neural network      353
+deep_architecture      deep architecture      354
+classifier_ensemble      classifier ensemble      355
+faster_r-cnn      faster r-cnn      356
+deep_network      deep network      357
+rule_induction      rule induction      358
+rough_set      rough set      359
+learning_vector_quantization      learning vector quantization      360
+restricted_boltzmann_machine      restricted boltzmann machine      361
+deep_belief_network      deep belief network      362
+adaptive_neuro-fuzzy_inference_system      adaptive neuro-fuzzy inference system      363
+recurrent_neural_network      recurrent neural network      364
+nearest_neighbor      nearest neighbor      365
+random_subspace      random subspace      366
+decision_forest      decision forest      367
+multilayer_perceptrons      multilayer perceptrons      368
+long_short-term_memory      long short-term memory      369
+back_propagation_neural_network      back propagation neural network      370
+extreme_learning_machine      extreme learning machine      371
+rotation_forest      rotation forest      372
+fuzzy_inference_system      fuzzy inference system      373
+probabilistic_neural_network      probabilistic neural network      374
+conditional_random_field      conditional random field      375
+adaptive_boosting      adaptive boosting      376
+extreme_gradient_boosting      extreme gradient boosting      377
+multilayer_perceptron      multilayer perceptron      378
+relevance_vector_machine      relevance vector machine      379
+neural_network      neural network      380
+fuzzy_logic      fuzzy logic      381
+activation_function      activation function      382
+quadratic_discriminant_analysis      quadratic discriminant analysis      383
+markov_random_field      markov random field      384
+gradient_boosting_machine      gradient boosting machine      385
+regularized_logistic_regression      regularized logistic regression      386
+inverse_problem      inverse problem      387
+support_vector_machine      support vector machine      388
+svm_classification      support vector machine      388
+svm_classifier      support vector machine      388
+linear_svm      support vector machine      388
+radial_basis_function      radial basis function      389
+kernel_methods      kernel methods      390
+support_vector_regression      support vector regression      391
+association_rules      association rules      392
+ensemble_methods      ensemble methods      393
+kernel_functions      kernel functions      394
+rbf_kernel      rbf kernel      395
+super_learner      super learner      396
+gaussian_process_regression      gaussian process regression      397
+nested_cross-validation      nested cross-validation      398
+gaussian_processes      gaussian processes      399
+graphical_models      graphical models      400
+bayesian_networks      bayesian networks      401
+probability_estimates      probability estimates      402
+gaussian_kernel      gaussian kernel      403
+bayesian_network      bayesian network      404
+linear_combination      linear combination      405
+gaussian_mixture_model      gaussian mixture model      406
+expectation_maximization      expectation maximization      407
+mixture_model      mixture model      408
+kalman_filter      kalman filter      409
+hidden_markov_model      hidden markov model      410
+hybrid_model      hybrid model      411
+generative_model      generative model      412
+hybrid_approach      hybrid approach      413
+probabilistic_model      probabilistic model      414
+covariance_matrix      covariance matrix      415
+maximum_entropy      maximum entropy      416
+probability_distribution      probability distribution      417
+learning_algorithm      learning algorithm      418
+computational_method      computational method      419
+statistical_method      statistical method      420
+bayesian_inference      bayesian inference      421
+markov_chain      markov chain      422
+maximum_likelihood      maximum likelihood      423
+statistical_test      statistical test      424
+random_walk      random walk      425
+statistical_inference      statistical inference      426
+causal_inference      causal inference      427
+monte_carlo      monte carlo      428
+parameter_estimation      parameter estimation      429
+hypothesis_testing      hypothesis testing      430
+parameter_tuning      parameter tuning      431
+model_validation      model validation      432
+parameter_optimization      parameter optimization      433
+dynamic_programming      dynamic programming      434
+stochastic_gradient_descent      stochastic gradient descent      435
+gradient_descent      gradient descent      436
+global_optimization      global optimization      437
+model_selection      model selection      438
+variable_selection      variable selection      439
+fitness_function      fitness function      440
+optimization_algorithm      optimization algorithm      441
+loss_function      loss function      442
+genetic_algorithm      genetic algorithm      443
+genetic_programming      genetic programming      444
+particle_swarm_optimization      particle swarm optimization      445
+differential_evolution      differential evolution      446
+evolutionary_algorithm      evolutionary algorithm      447
+scoring_function      scoring function      448
+energy_function      energy function      449
+scoring_functions      scoring functions      450
+naive_bayes      naive bayes      451
+adaboost      adaboost      452
+linear_classifier      linear classifier      453
+bayes_classifier      bayesian model      454
+bayesian_model      bayesian model      454
+bayesian_classifier      bayesian model      454
+majority_voting      majority voting      455
+binary_classifier      binary classifier      456
+rdp_classifier      rdp classifier      457
+multi-class_classification      multi-class classification      458
+binary_classification      binary classification      459
+ensemble_learning      ensemble model      460
+ensemble_method      ensemble model      460
+ensemble_model      ensemble model      460
+ensemble_classifier      ensemble model      460
+regression_trees      regression trees      461
+confusion_matrix      confusion matrix      462
+decision_tree      decision tree      463
+independent_test_set      independent test set      464
+random_forest      random forest      465
+recursive_partitioning      recursive partitioning      466
+independent_set      independent set      467
+ridge_regression      ridge regression      468
+lasso_regression      lasso regression      469
+least_absolute_shrinkage_and_selection_operator      least absolute shrinkage and selection operator      470
+cross-validation      cross-validation      471
+information_gain      information gain      472
+feature_importance      feature importance      473
+variable_importance      variable importance      474
+linear_discriminant      linear discriminant      475
+partial_least_squares_regression      partial least squares regression      476
+discriminant_analysis      discriminant analysis      477
+partial_least_squares      partial least squares      478
+latent_variables      latent variables      479
+precision-recall_curve      precision-recall curve      480
+curse_of_dimensionality      curse of dimensionality      481
+predictive_performance      predictive performance      482
+discrimination_power      discrimination power      483
+window_length      window length      484
+sliding_window      sliding window      485
+linear_model      linear model      486
+propensity_score      propensity score      487
+multiple_regression      multiple regression      488
+cox_proportional_hazard      cox proportional hazard      489
+multiple_linear_regression      multiple linear regression      490
+regression      regression      491
+cox_regression      cox regression      492
+linear_regression      linear regression      493
+logistic_regression      logistic regression      494
+regression_analysis      regression analysis      495
+multivariate_model      multivariate model      496
+multivariate_analysis      multivariate model      496
+sensitivity_analysis      sensitivity analysis      497
+secondary_analysis      secondary analysis      498
+correlation_analysis      correlation analysis      499
+correlation_coefficient      correlation coefficient      500
+p_value      p value      501
+area_under_curve      receiver operating characteristic      502
+receiver_operating_characteristic      receiver operating characteristic      502
+roc_curves      receiver operating characteristic      502
+confidence_level      confidence level      503
+confidence_intervals      confidence intervals      504
+level_set      level set      505
+standard_deviation      standard deviation      506
+relative_importance      relative importance      507
+507    1062
+1     6 538434
+
+
+7     12 538434
+
+
+13     18 538434
+
+
+19     24 538434
+
+
+25     30 538434
+
+
+31     36 538434
+
+
+37     42 538434
+
+
+43     48 538434
+
+
+49     54 538434
+
+
+55     60 538434
+
+
+61     66 538434
+
+
+67     72 538434
+
+
+73     78 538434
+
+
+79     84 538434
+
+
+85     90 538434
+
+
+91     96 538434
+
+
+97     102 538434
+
+
+103     108 538434
+
+
+109     114 538434
+
+
+115     120 538434
+
+
+121     126 538434
+
+
+127     132 538434
+
+
+133     138 538434
+
+
+139     144 538434
+
+
+145     150 538434
+
+
+151     156 538434
+
+
+157     162 538434
+
+
+163     168 538434
+
+
+169     174 538434
+
+
+175     180 538434
+
+
+181     186 538434
+
+
+187     192 538434
+
+
+193     198 538434
+
+
+199     204 538434
+
+
+205     210 538434
+
+
+211     216 538434
+
+
+217     222 538434
+
+
+223     228 538434
+
+
+229     234 538434
+
+
+235     240 538434
+
+
+241     246 538434
+
+
+247     252 538434
+
+
+253     258 538434
+
+
+259     264 538434
+
+
+265     270 538434
+
+
+271     276 538434
+
+

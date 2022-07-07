@@ -142,7 +142,9 @@ while(end <= end_pred):  # 2021-12
     last_heat = heat
     start += 6
     end += 6
-
+    
+np.save("last_heat.npy", last_heat)
+np.save("pred_heat.npy", pred_heat)
 
 def get_r2(pred_heat, heat):
     y_true = []
@@ -184,13 +186,24 @@ with open('col_order.txt', 'w') as f:
     for i in range(len(col_order['leaves'])):
         f.write(dict[col_order['leaves'][i]+5000]+'\n')
 
+
+
 plot_heat = np.zeros((tot_cs+1, tot_medical+1))
 for i in range(0, tot_cs+1):
     for j in range(0, tot_medical+1):
         plot_heat[i][j] = pred_heat[i+20][j+20]
 plot_heat = np.log1p(plot_heat)
-g = sns.clustermap(plot_heat, row_linkage=row_linkage,
-                   col_linkage=col_linkage, vmin=0, vmax=5)
+
+g=sns.clustermap(plot_heat, figsize=(20, 20), row_linkage=row_linkage, col_linkage=col_linkage, vmin=0, vmax=5,\
+    yticklabels = [dict[r] for r in row_order['leaves']], xticklabels = [dict[5000 + c] for c in col_order['leaves']]) 
+
+ax = g.ax_heatmap
+ax.set_ylabel("cs_keywords")
+ax.set_xlabel("medical_keywords")
+
+ax.set_yticklabels(ax.get_ymajorticklabels(), fontdict={'fontsize':7})
+ax.set_xticklabels(ax.get_xmajorticklabels(), fontdict={'fontsize':7})
+
 # g.savefig("2019-6-pred_3.pdf")
 g.savefig("picture/2021-12-pred_3.pdf")
 
@@ -199,7 +212,14 @@ for i in range(0, tot_cs+1):
     for j in range(0, tot_medical+1):
         plot_heat[i][j] = last_heat[i+20][j+20]
 plot_heat = np.log1p(plot_heat)
-g = sns.clustermap(plot_heat, row_linkage=row_linkage,
-                   col_linkage=col_linkage, vmin=0, vmax=5)
+g=sns.clustermap(plot_heat, figsize=(20, 20), row_linkage=row_linkage, col_linkage=col_linkage, vmin=0, vmax=5,\
+    yticklabels = [dict[r] for r in row_order['leaves']], xticklabels = [dict[5000 + c] for c in col_order['leaves']]) 
+
+ax = g.ax_heatmap
+ax.set_ylabel("cs_keywords")
+ax.set_xlabel("medical_keywords")
+
+ax.set_yticklabels(ax.get_ymajorticklabels(), fontdict={'fontsize':7})
+ax.set_xticklabels(ax.get_xmajorticklabels(), fontdict={'fontsize':7})
 # g.savefig("2019-6-actal_3.pdf")
 g.savefig("picture/2021-12-actal_3.pdf")
