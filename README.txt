@@ -29,11 +29,6 @@ pubmed_figure.ipynb                         Jupyter notebook for generating all 
 
 
 
-mesh wikipedia 47000 700
-for c in range(0,tot_cs+1):
-    for m in range(0,tot_medical+1):
-for c in range(1,tot_cs+1):
-    for m in range(1,tot_medical+1):
 
 
 difference between true predict

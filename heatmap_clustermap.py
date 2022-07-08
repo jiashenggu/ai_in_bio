@@ -11,14 +11,11 @@ from gensim.models.phrases import Phrases, Phraser
 import ahocorasick
 import numpy as np
 import seaborn as sns
+import scipy.spatial as sp, scipy.cluster.hierarchy as hc
 import matplotlib.pylab as plt
 from sklearn.metrics import r2_score
 from scipy.stats import spearmanr
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import Ridge
-from sklearn.linear_model import Lasso
-from sklearn.svm import SVR
-from sklearn.linear_model import LinearRegression
+
 C = ahocorasick.Automaton()
 M = ahocorasick.Automaton()
 def not_all_uppercase(str):
@@ -77,8 +74,8 @@ for i in range(len(df)):
         for m in set(medical_word):
             heat[c,m]+=1
             
-import seaborn as sns;
-import scipy.spatial as sp, scipy.cluster.hierarchy as hc
+
+
 
 row_dis=[]
 col_dis=[]

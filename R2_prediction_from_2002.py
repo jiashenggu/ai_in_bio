@@ -15,11 +15,12 @@ import seaborn as sns
 import matplotlib.pylab as plt
 from sklearn.metrics import r2_score
 from scipy.stats import spearmanr
-from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import Ridge
 from sklearn.linear_model import Lasso
+from sklearn.linear_model import ElasticNet
+from sklearn.linear_model import OrthogonalMatchingPursuit
+from sklearn.linear_model import PassiveAggressiveRegressor
 from sklearn.svm import SVR
-from sklearn.linear_model import LinearRegression
 import warnings
 
 warnings.filterwarnings('ignore')
@@ -91,11 +92,7 @@ df_all['Date']=(df_all['year']-2000)*12+df_all['month']
 start=1
 end=6
 print(tot_cs,"  ",tot_medical)
-last_heat=np.zeros((tot_cs+100,tot_medical+100))
-pred_ridge_false=np.zeros((tot_cs+100,tot_medical+100))
-pred_ridge_true=np.zeros((tot_cs+100,tot_medical+100))
-pred_svr=np.zeros((tot_cs+100,tot_medical+100))
-pred_lasso=np.zeros((tot_cs+100,tot_medical+100))
+
 
 train_data={}
 train_label={}
@@ -112,20 +109,14 @@ results = {}
 results['date'] = []
 
 
-
-# results['linear_regression_spearmanr'] = []
-# results['svr_spearmanr'] = []
-# results['lasso_spearmanr'] = []
-# results['ridge_false_spearmanr'] = []
-# results['ridge_true_spearmanr'] = []
-
-
-
 heats = {}
-pred_ridge_false = {}
-pred_ridge_true = {}
+
 pred_svr = {}
 pred_lasso = {}
+pred_ridge = {}
+pred_elastic_net = {}
+pred_omp = {}
+pred_par = {}
 start = 1
 end = 6
 # while(end<=234):#2019-6
@@ -156,19 +147,19 @@ while(end<=264):#2021-12
     if start!=1:
         print(date, start)
         results['date'].append(date)
-        pred_ridge_false[date]=np.zeros((tot_cs+100,tot_medical+100))
-        pred_ridge_true[date]=np.zeros((tot_cs+100,tot_medical+100))
         pred_svr[date]=np.zeros((tot_cs+100,tot_medical+100))
         pred_lasso[date]=np.zeros((tot_cs+100,tot_medical+100))
+        pred_ridge[date]=np.zeros((tot_cs+100,tot_medical+100))
+        pred_elastic_net[date] = np.zeros((tot_cs+100,tot_medical+100))
+        pred_omp[date] = np.zeros((tot_cs+100,tot_medical+100))
+        pred_par[date] = np.zeros((tot_cs+100,tot_medical+100))
     start += 6
     end += 6
 
-
+reg_models = [SVR, Lasso, Ridge, ElasticNet, OrthogonalMatchingPursuit, PassiveAggressiveRegressor]
 for window_size in [1, 3, 5, 7, 9]:
-    # results['svr_r2'] = []
-    results['lasso_r2'] = []
-    # results['ridge_false_r2'] = []
-    # results['ridge_true_r2'] = []
+    for reg_model in reg_models:
+        results[reg_model.__name__] = []
     for cc in range(1,tot_cs+1):
         print(cc)
         for mm in range(1,tot_medical+1):
@@ -196,62 +187,56 @@ for window_size in [1, 3, 5, 7, 9]:
                             tmp.append(last_heat[c1+20, m1+20])
                             
                     if(start>=30):
-                        #print(train_data)
-                        #print(train_label)
-                        #print(tmp)
-                        #print("---")
-                        # reg = Ridge(normalize=False,random_state=0).fit(np.asarray(train_data), np.asarray(train_label))
-                        # pred_ridge_false[date][cc+20, mm+20]=reg.predict(np.asarray([tmp]))[0]
-                        # if(pred_ridge_false[date][cc+20, mm+20]<0):
-                        #     pred_ridge_false[date][cc+20, mm+20]=0
-                        
-                        
-                        # reg = Ridge(normalize=True,random_state=0).fit(np.asarray(train_data), np.asarray(train_label))
-                        # pred_ridge_true[date][cc+20, mm+20]=reg.predict(np.asarray([tmp]))[0]
-                        # if(pred_ridge_true[date][cc+20, mm+20]<0):
-                        #     pred_ridge_true[date][cc+20, mm+20]=0
                             
-                            
+                        reg = SVR().fit(np.asarray(train_data), np.asarray(train_label))
+                        pred_svr[date][cc+20, mm+20]=reg.predict(np.asarray([tmp]))[0]
+                        if(pred_svr[date][cc+20, mm+20]<0):
+                            pred_svr[date][cc+20, mm+20]=0
+                        
                         reg = Lasso(normalize=True, random_state=0).fit(np.asarray(train_data), np.asarray(train_label))
                         pred_lasso[date][cc+20, mm+20]=reg.predict(np.asarray([tmp]))[0]
                         if(pred_lasso[date][cc+20, mm+20]<0):
                             pred_lasso[date][cc+20, mm+20]=0
+                        
+                        reg = Ridge(normalize=True,random_state=0).fit(np.asarray(train_data), np.asarray(train_label))
+                        pred_ridge[date][cc+20, mm+20]=reg.predict(np.asarray([tmp]))[0]
+                        if(pred_ridge[date][cc+20, mm+20]<0):
+                            pred_ridge[date][cc+20, mm+20]=0
                             
-                            
-                            
-                        # reg = SVR().fit(np.asarray(train_data), np.asarray(train_label))
-                        # pred_svr[date][cc+20, mm+20]=reg.predict(np.asarray([tmp]))[0]
-                        # if(pred_svr[date][cc+20, mm+20]<0):
-                        #     pred_svr[date][cc+20, mm+20]=0
+                        
+                        reg = ElasticNet(random_state=0).fit(np.asarray(train_data), np.asarray(train_label))
+                        pred_elastic_net[date][cc+20, mm+20]=reg.predict(np.asarray([tmp]))[0]
+                        if(pred_elastic_net[date][cc+20, mm+20]<0):
+                            pred_elastic_net[date][cc+20, mm+20]=0
+
+                        reg = OrthogonalMatchingPursuit().fit(np.asarray(train_data), np.asarray(train_label))
+                        pred_omp[date][cc+20, mm+20]=reg.predict(np.asarray([tmp]))[0]
+                        if(pred_omp[date][cc+20, mm+20]<0):
+                            pred_omp[date][cc+20, mm+20]=0
+
+                        reg = PassiveAggressiveRegressor(random_state=0).fit(np.asarray(train_data), np.asarray(train_label))
+                        pred_par[date][cc+20, mm+20]=reg.predict(np.asarray([tmp]))[0]
+                        if(pred_par[date][cc+20, mm+20]<0):
+                            pred_par[date][cc+20, mm+20]=0
+
+                        
                             
 
                             
                     train_data.append(tmp)
                     train_label.append(heat[cc+20, mm+20])
 
-                    # print(2000+int(start/12)," ",start%12,"  :\n")
-                    # print(get_r2(pred_lr,heat)," ", get_spearmanr(pred_lr,heat))
-                    # print(get_r2(pred_svr,heat)," ", get_spearmanr(pred_svr,heat))
-                    # print(get_r2(pred_lasso,heat)," ", get_spearmanr(pred_lasso,heat))
-                    # print(get_r2(pred_ridge_false,heat)," ", get_spearmanr(pred_ridge_false,heat))
-                    # print(get_r2(pred_ridge_true,heat)," ", get_spearmanr(pred_ridge_true,heat))
-                    # results['date'].append("{}/{}".format(2000+int(start/12), start%12))
-                    # results['linear_regression_r2'].append(get_r2(pred_lr, heat))
-
-                    # results['linear_regression_spearmanr'].append(get_spearmanr(pred_lr, heat))
-                    # results['svr_spearmanr'].append(get_spearmanr(pred_svr, heat))
-                    # results['lasso_spearmanr'].append(get_spearmanr(pred_lasso, heat))
-                    # results['ridge_false_spearmanr'].append(get_spearmanr(pred_ridge_false, heat))
-                    # results['ridge_true_spearmanr'].append(get_spearmanr(pred_ridge_true, heat))
                 last_heat=heat
                 start+=6
                 end+=6
     for date in results['date']:
-        # results['svr_r2'].append(get_r2(pred_svr[date], heats[date]))
-        results['lasso_r2'].append(get_r2(pred_lasso[date], heats[date]))
-        # results['ridge_false_r2'].append(get_r2(pred_ridge_false[date], heats[date]))
-        # results['ridge_true_r2'].append(get_r2(pred_ridge_true[date], heats[date]))
-    pd.DataFrame(results).to_csv('window_size_{}_lasso.csv'.format(window_size))
+        results['SVR'].append(get_r2(pred_svr[date], heats[date]))
+        results['Lasso'].append(get_r2(pred_lasso[date], heats[date]))
+        results['Ridge'].append(get_r2(pred_ridge[date], heats[date]))
+        results['Elastic_net'].append(get_r2(pred_elastic_net[date], heats[date]))
+        results['OrthogonalMatchingPursuit'].append(get_r2(pred_omp[date], heats[date]))
+        results['PassiveAggressiveRegressor'].append(get_r2(pred_par[date], heats[date]))
+    pd.DataFrame(results).to_csv('window_size_{}_final.csv'.format(window_size))
 
 
 
