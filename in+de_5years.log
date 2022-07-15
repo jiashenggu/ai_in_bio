@@ -1,0 +1,541 @@
+507    1062
+1     60
+___________________________________________________________
+Result of Year   1970   :
+TOP20 increase of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & word embedding , young adults & 0.000000 \\
+2 & word embedding , wound healing & 0.000000 \\
+3 & word embedding , world health organization & 0.000000 \\
+4 & word embedding , working memory & 0.000000 \\
+5 & word embedding , whole slide images & 0.000000 \\
+6 & word embedding , whole blood & 0.000000 \\
+7 & word embedding , white matter lesions & 0.000000 \\
+8 & word embedding , white matter hyperintensities & 0.000000 \\
+9 & word embedding , white matter & 0.000000 \\
+10 & word embedding , white blood cells & 0.000000 \\
+11 & word embedding , weight loss & 0.000000 \\
+12 & word embedding , water temperature & 0.000000 \\
+13 & word embedding , water quality & 0.000000 \\
+14 & word embedding , wastewater treatment & 0.000000 \\
+15 & word embedding , waist circumference & 0.000000 \\
+16 & word embedding , voxel-based morphometry & 0.000000 \\
+17 & word embedding , volatile organic compounds & 0.000000 \\
+18 & word embedding , voice disorders & 0.000000 \\
+19 & word embedding , vital signs & 0.000000 \\
+20 & word embedding , visual fields & 0.000000 \\
+\end{tabular}
+
+ 
+TOP20 decrease of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & ab initio , abdominal pain & 0.000000 \\
+2 & ab initio , active sites & 0.000000 \\
+3 & ab initio , active surveillance & 0.000000 \\
+4 & ab initio , activities of daily living & 0.000000 \\
+5 & ab initio , activity cliffs & 0.000000 \\
+6 & ab initio , acute coronary syndrome & 0.000000 \\
+7 & ab initio , acute ischemic stroke & 0.000000 \\
+8 & ab initio , acute kidney injury & 0.000000 \\
+9 & ab initio , acute lymphoblastic leukemia & 0.000000 \\
+10 & ab initio , acute myeloid leukemia & 0.000000 \\
+11 & ab initio , acute myocardial infarction & 0.000000 \\
+12 & ab initio , acute stroke & 0.000000 \\
+13 & ab initio , adipose tissue & 0.000000 \\
+14 & ab initio , adjuvant chemotherapy & 0.000000 \\
+15 & ab initio , adjuvant therapy & 0.000000 \\
+16 & ab initio , adverse drug events & 0.000000 \\
+17 & ab initio , adverse drug reaction & 0.000000 \\
+18 & ab initio , adverse outcomes & 0.000000 \\
+19 & ab initio , adverse reactions & 0.000000 \\
+20 & ab initio , afirma gene expression classifier & 0.000000 \\
+\end{tabular}
+
+61     120
+___________________________________________________________
+Result of Year   1975   :
+TOP20 increase of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence , gene & 3.000000 \\
+2 & classification , gene & 2.000000 \\
+3 & regression analysis , sleep stage & 1.000000 \\
+4 & regression analysis , sleep & 1.000000 \\
+5 & regression , sleep stage & 1.000000 \\
+6 & regression , sleep & 1.000000 \\
+7 & pattern recognition , gene & 1.000000 \\
+8 & pattern recognition , cell morphology & 1.000000 \\
+9 & nearest neighbor , gene & 1.000000 \\
+10 & multivariate classifier , t cells & 1.000000 \\
+11 & multivariate classifier , t cell & 1.000000 \\
+12 & multivariate classifier , cell morphology & 1.000000 \\
+13 & mahalanobis distance , cell segmentation & 1.000000 \\
+14 & information systems , mental health & 1.000000 \\
+15 & information systems , gene & 1.000000 \\
+16 & information system , mental health & 1.000000 \\
+17 & information system , gene & 1.000000 \\
+18 & image processing , cell segmentation & 1.000000 \\
+19 & image analysis , t cells & 1.000000 \\
+20 & image analysis , t cell & 1.000000 \\
+\end{tabular}
+
+ 
+TOP20 decrease of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & ab initio , abdominal pain & 0.000000 \\
+2 & ab initio , active sites & 0.000000 \\
+3 & ab initio , active surveillance & 0.000000 \\
+4 & ab initio , activities of daily living & 0.000000 \\
+5 & ab initio , activity cliffs & 0.000000 \\
+6 & ab initio , acute coronary syndrome & 0.000000 \\
+7 & ab initio , acute ischemic stroke & 0.000000 \\
+8 & ab initio , acute kidney injury & 0.000000 \\
+9 & ab initio , acute lymphoblastic leukemia & 0.000000 \\
+10 & ab initio , acute myeloid leukemia & 0.000000 \\
+11 & ab initio , acute myocardial infarction & 0.000000 \\
+12 & ab initio , acute stroke & 0.000000 \\
+13 & ab initio , adipose tissue & 0.000000 \\
+14 & ab initio , adjuvant chemotherapy & 0.000000 \\
+15 & ab initio , adjuvant therapy & 0.000000 \\
+16 & ab initio , adverse drug events & 0.000000 \\
+17 & ab initio , adverse drug reaction & 0.000000 \\
+18 & ab initio , adverse outcomes & 0.000000 \\
+19 & ab initio , adverse reactions & 0.000000 \\
+20 & ab initio , afirma gene expression classifier & 0.000000 \\
+\end{tabular}
+
+121     180
+___________________________________________________________
+Result of Year   1980   :
+TOP20 increase of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence , gene & 9.000000 \\
+2 & classification , gene & 6.000000 \\
+3 & feature space , gene & 2.000000 \\
+4 & decision tree , gene & 2.000000 \\
+5 & artificial intelligence , clinical decision & 2.000000 \\
+6 & texture features , gene & 1.000000 \\
+7 & texture feature , gene & 1.000000 \\
+8 & texture analysis , gene & 1.000000 \\
+9 & statistical analysis , gene & 1.000000 \\
+10 & standard deviation , vascular disease & 1.000000 \\
+11 & standard deviation , tumor & 1.000000 \\
+12 & standard deviation , risk assessment & 1.000000 \\
+13 & standard deviation , cardiovascular disease & 1.000000 \\
+14 & standard deviation , blood pressure & 1.000000 \\
+15 & standard deviation , age groups & 1.000000 \\
+16 & spatial resolution , single cell & 1.000000 \\
+17 & spatial resolution , early detection & 1.000000 \\
+18 & spatial resolution , cell classification & 1.000000 \\
+19 & spatial resolution , cancer & 1.000000 \\
+20 & regression , tumor & 1.000000 \\
+\end{tabular}
+
+ 
+TOP20 decrease of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence , mental health & -1.000000 \\
+2 & bayesian model , sleep & -1.000000 \\
+3 & bayesian model , sleep stage & -1.000000 \\
+4 & classification , cell morphology & -1.000000 \\
+5 & classification , t cell & -1.000000 \\
+6 & classification , t cells & -1.000000 \\
+7 & computer program , gene & -1.000000 \\
+8 & feature extraction , gene & -1.000000 \\
+9 & image analysis , cell morphology & -1.000000 \\
+10 & image analysis , t cell & -1.000000 \\
+11 & image analysis , t cells & -1.000000 \\
+12 & image processing , cell segmentation & -1.000000 \\
+13 & information system , mental health & -1.000000 \\
+14 & information systems , gene & -1.000000 \\
+15 & information systems , mental health & -1.000000 \\
+16 & mahalanobis distance , cell segmentation & -1.000000 \\
+17 & multivariate classifier , cell morphology & -1.000000 \\
+18 & multivariate classifier , t cell & -1.000000 \\
+19 & multivariate classifier , t cells & -1.000000 \\
+20 & pattern recognition , cell morphology & -1.000000 \\
+\end{tabular}
+
+181     240
+___________________________________________________________
+Result of Year   1985   :
+TOP20 increase of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence , gene & 23.000000 \\
+2 & expert system , gene & 10.000000 \\
+3 & artificial intelligence , cancer & 10.000000 \\
+4 & artificial intelligence , protein & 7.000000 \\
+5 & artificial intelligence , natural language & 6.000000 \\
+6 & pattern recognition , gene & 4.000000 \\
+7 & image analysis , gene & 4.000000 \\
+8 & artificial intelligence , diabetes & 4.000000 \\
+9 & image analysis , tumor & 3.000000 \\
+10 & expert system , cancer & 3.000000 \\
+11 & artificial intelligence , structure prediction & 3.000000 \\
+12 & artificial intelligence , protein structure & 3.000000 \\
+13 & artificial intelligence , clinical practice & 3.000000 \\
+14 & signal processing , gene & 2.000000 \\
+15 & pattern recognition , protein & 2.000000 \\
+16 & medical informatics , gene & 2.000000 \\
+17 & knowledge base , gene & 2.000000 \\
+18 & image processing , gene & 2.000000 \\
+19 & image analysis , cancer & 2.000000 \\
+20 & expert system , natural language & 2.000000 \\
+\end{tabular}
+
+ 
+TOP20 decrease of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & nearest neighbor , gene & -2.000000 \\
+2 & artificial intelligence , amino acid sequence & -1.000000 \\
+3 & artificial intelligence , chemical properties & -1.000000 \\
+4 & artificial intelligence , clinical research & -1.000000 \\
+5 & artificial intelligence , lung function & -1.000000 \\
+6 & classification , age groups & -1.000000 \\
+7 & classification , blood pressure & -1.000000 \\
+8 & classification , cardiovascular disease & -1.000000 \\
+9 & classification , early detection & -1.000000 \\
+10 & classification , eeg signal & -1.000000 \\
+11 & classification , event-related potentials & -1.000000 \\
+12 & classification , risk assessment & -1.000000 \\
+13 & classification , single cell & -1.000000 \\
+14 & classification , sleep & -1.000000 \\
+15 & classification , sleep stage & -1.000000 \\
+16 & classification , vascular disease & -1.000000 \\
+17 & classification , visual field & -1.000000 \\
+18 & cluster analysis , gene & -1.000000 \\
+19 & computer program , event-related potentials & -1.000000 \\
+20 & computer program , visual field & -1.000000 \\
+\end{tabular}
+
+241     300
+___________________________________________________________
+Result of Year   1990   :
+TOP20 increase of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & neural network , gene & 22.000000 \\
+2 & machine learning , gene & 21.000000 \\
+3 & classification , gene & 21.000000 \\
+4 & artificial intelligence , gene & 16.000000 \\
+5 & machine learning , protein & 12.000000 \\
+6 & machine learning , secondary structure & 8.000000 \\
+7 & natural language processing , natural language & 7.000000 \\
+8 & learning algorithm , gene & 7.000000 \\
+9 & bayesian model , gene & 6.000000 \\
+10 & artificial intelligence , health care & 6.000000 \\
+11 & neural network , protein & 5.000000 \\
+12 & neural network , human brain & 5.000000 \\
+13 & machine learning , structure prediction & 5.000000 \\
+14 & machine learning , protein structure & 5.000000 \\
+15 & expert system , gene & 5.000000 \\
+16 & artificial intelligence , molecular biology & 5.000000 \\
+17 & artificial intelligence , clinical decision & 5.000000 \\
+18 & neural network , cancer & 4.000000 \\
+19 & machine learning , protein secondary structure & 4.000000 \\
+20 & machine learning , molecular biology & 4.000000 \\
+\end{tabular}
+
+ 
+TOP20 decrease of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence , cancer & -5.000000 \\
+2 & image analysis , gene & -4.000000 \\
+3 & artificial intelligence , diabetes & -3.000000 \\
+4 & expert system , cancer & -3.000000 \\
+5 & image analysis , tumor & -3.000000 \\
+6 & artificial intelligence , diagnostic performance & -2.000000 \\
+7 & artificial intelligence , differential diagnosis & -2.000000 \\
+8 & artificial intelligence , human body & -2.000000 \\
+9 & artificial intelligence , structure prediction & -2.000000 \\
+10 & decision making , cancer & -2.000000 \\
+11 & feature space , gene & -2.000000 \\
+12 & pattern recognition , gene & -2.000000 \\
+13 & artificial intelligence , blood glucose & -1.000000 \\
+14 & artificial intelligence , blood tests & -1.000000 \\
+15 & artificial intelligence , brain function & -1.000000 \\
+16 & artificial intelligence , cancer diagnosis & -1.000000 \\
+17 & artificial intelligence , cancer research & -1.000000 \\
+18 & artificial intelligence , cause of death & -1.000000 \\
+19 & artificial intelligence , chronic disease & -1.000000 \\
+20 & artificial intelligence , cleavage site & -1.000000 \\
+\end{tabular}
+
+301     360
+___________________________________________________________
+Result of Year   1995   :
+TOP20 increase of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & classification , gene & 40.000000 \\
+2 & neural network , gene & 32.000000 \\
+3 & genetic algorithm , gene & 24.000000 \\
+4 & machine learning , gene & 15.000000 \\
+5 & receiver operating characteristic , gene & 13.000000 \\
+6 & regression , gene & 11.000000 \\
+7 & classification , cancer & 9.000000 \\
+8 & image analysis , gene & 7.000000 \\
+9 & classification , diagnostic performance & 7.000000 \\
+10 & texture feature , gene & 6.000000 \\
+11 & logistic regression , gene & 6.000000 \\
+12 & image analysis , tumor & 6.000000 \\
+13 & discriminant analysis , gene & 6.000000 \\
+14 & decision tree , gene & 6.000000 \\
+15 & texture features , gene & 5.000000 \\
+16 & statistical methods , gene & 5.000000 \\
+17 & statistical method , gene & 5.000000 \\
+18 & pattern recognition , gene & 5.000000 \\
+19 & neural network , risk factor & 5.000000 \\
+20 & machine learning , electrical stimulation & 5.000000 \\
+\end{tabular}
+
+ 
+TOP20 decrease of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & machine learning , secondary structure & -6.000000 \\
+2 & artificial intelligence , clinical decision & -5.000000 \\
+3 & artificial intelligence , molecular biology & -5.000000 \\
+4 & computer systems , gene & -4.000000 \\
+5 & expert system , clinical decision & -4.000000 \\
+6 & machine learning , chemical properties & -4.000000 \\
+7 & machine learning , molecular biology & -4.000000 \\
+8 & natural language processing , natural language & -4.000000 \\
+9 & artificial intelligence , breast cancer & -3.000000 \\
+10 & artificial intelligence , chest radiography & -3.000000 \\
+11 & artificial intelligence , patient care & -3.000000 \\
+12 & bayesian model , gene & -3.000000 \\
+13 & classification , atrial fibrillation & -3.000000 \\
+14 & computer vision , gene & -3.000000 \\
+15 & expert system , gene & -3.000000 \\
+16 & knowledge representation , gene & -3.000000 \\
+17 & machine learning , protein secondary structure & -3.000000 \\
+18 & machine learning , protein structure & -3.000000 \\
+19 & machine learning , structure prediction & -3.000000 \\
+20 & medical data , clinical data & -3.000000 \\
+\end{tabular}
+
+361     420
+___________________________________________________________
+Result of Year   2000   :
+TOP20 increase of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & classification , gene & 126.000000 \\
+2 & machine learning , gene & 101.000000 \\
+3 & neural network , gene & 54.000000 \\
+4 & classification , cancer & 49.000000 \\
+5 & machine learning , protein & 45.000000 \\
+6 & support vector machine , gene & 44.000000 \\
+7 & classification , gene expression & 43.000000 \\
+8 & classification , protein & 40.000000 \\
+9 & support vector machine , protein & 31.000000 \\
+10 & learning algorithm , gene & 31.000000 \\
+11 & decision tree , gene & 29.000000 \\
+12 & artificial intelligence , gene & 29.000000 \\
+13 & supervised learning , gene & 26.000000 \\
+14 & neural network , protein & 26.000000 \\
+15 & classification , tumor & 26.000000 \\
+16 & cross-validation , gene & 25.000000 \\
+17 & data mining , gene & 24.000000 \\
+18 & machine learning , gene expression & 23.000000 \\
+19 & clustering , gene & 23.000000 \\
+20 & neural network , cancer & 20.000000 \\
+\end{tabular}
+
+ 
+TOP20 decrease of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence , health care & -7.000000 \\
+2 & classification , diagnostic performance & -6.000000 \\
+3 & expert system , gene & -6.000000 \\
+4 & classification , diagnostic accuracy & -5.000000 \\
+5 & artificial intelligence , high risk & -4.000000 \\
+6 & computer program , gene & -4.000000 \\
+7 & image analysis , t cell & -4.000000 \\
+8 & image analysis , t cells & -4.000000 \\
+9 & image analysis , tumor & -4.000000 \\
+10 & machine learning , myocardial infarction & -4.000000 \\
+11 & neural network , diagnostic classification & -4.000000 \\
+12 & neural network , myocardial infarction & -4.000000 \\
+13 & neural network , risk factor & -4.000000 \\
+14 & regression , fine needle aspiration & -4.000000 \\
+15 & regression , myocardial infarction & -4.000000 \\
+16 & texture feature , gene & -4.000000 \\
+17 & artificial intelligence , t cells & -3.000000 \\
+18 & classification , breast lesion & -3.000000 \\
+19 & classification , fine needle aspiration & -3.000000 \\
+20 & classification , myocardial infarction & -3.000000 \\
+\end{tabular}
+
+421     480
+___________________________________________________________
+Result of Year   2005   :
+TOP20 increase of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & classification , gene & 516.000000 \\
+2 & machine learning , gene & 456.000000 \\
+3 & support vector machine , gene & 320.000000 \\
+4 & machine learning , protein & 279.000000 \\
+5 & classification , cancer & 195.000000 \\
+6 & support vector machine , protein & 179.000000 \\
+7 & classification , protein & 178.000000 \\
+8 & cross-validation , gene & 121.000000 \\
+9 & neural network , gene & 111.000000 \\
+10 & learning algorithm , gene & 101.000000 \\
+11 & clustering , gene & 100.000000 \\
+12 & classification , gene expression & 100.000000 \\
+13 & support vector machine , cancer & 95.000000 \\
+14 & regression , gene & 92.000000 \\
+15 & feature selection , gene & 89.000000 \\
+16 & machine learning , cancer & 86.000000 \\
+17 & classification , tumor & 80.000000 \\
+18 & bayesian model , gene & 80.000000 \\
+19 & nearest neighbor , gene & 71.000000 \\
+20 & machine learning , gene expression & 70.000000 \\
+\end{tabular}
+
+ 
+TOP20 decrease of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & artificial intelligence , prostate & -4.000000 \\
+2 & artificial intelligence , risk factor & -4.000000 \\
+3 & artificial intelligence , risk factors & -4.000000 \\
+4 & deep learning , health care & -4.000000 \\
+5 & artificial intelligence , clinical outcome & -3.000000 \\
+6 & artificial intelligence , prostate cancer & -3.000000 \\
+7 & artificial intelligence , sleep & -3.000000 \\
+8 & classification , magnetic resonance spectroscopy & -3.000000 \\
+9 & classification , skin lesions & -3.000000 \\
+10 & expert system , diabetes & -3.000000 \\
+11 & expression patterns , gene expression analysis & -3.000000 \\
+12 & factor analysis , gene & -3.000000 \\
+13 & linear discriminant , computed tomography & -3.000000 \\
+14 & medical informatics , gene & -3.000000 \\
+15 & neural network , clinical outcome & -3.000000 \\
+16 & neural network , evoked potentials & -3.000000 \\
+17 & neural network , intracranial pressure & -3.000000 \\
+18 & neural network , prostate cancer & -3.000000 \\
+19 & neural network , side effect & -3.000000 \\
+20 & scoring system , gene & -3.000000 \\
+\end{tabular}
+
+481     540
+___________________________________________________________
+Result of Year   2010   :
+TOP20 increase of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & machine learning , gene & 541.000000 \\
+2 & classification , gene & 386.000000 \\
+3 & machine learning , protein & 236.000000 \\
+4 & support vector machine , gene & 232.000000 \\
+5 & regression , gene & 187.000000 \\
+6 & random forest , gene & 154.000000 \\
+7 & learning algorithm , gene & 116.000000 \\
+8 & cross-validation , gene & 115.000000 \\
+9 & feature selection , gene & 108.000000 \\
+10 & machine learning , cancer & 93.000000 \\
+11 & classification , magnetic resonance & 89.000000 \\
+12 & support vector machine , cancer & 81.000000 \\
+13 & classification , cancer & 79.000000 \\
+14 & natural language processing , natural language & 70.000000 \\
+15 & functional magnetic resonance imaging , magnetic resonance & 68.000000 \\
+16 & random forest , protein & 67.000000 \\
+17 & classification , protein & 62.000000 \\
+18 & machine learning , magnetic resonance & 61.000000 \\
+19 & support vector machine , protein & 59.000000 \\
+20 & logistic regression , gene & 59.000000 \\
+\end{tabular}
+
+ 
+TOP20 decrease of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & neural network , protein & -38.000000 \\
+2 & clustering , gene expression & -23.000000 \\
+3 & classification , protein structure & -22.000000 \\
+4 & genetic programming , gene & -16.000000 \\
+5 & neural network , protein structure & -16.000000 \\
+6 & clustering , expression profiles & -14.000000 \\
+7 & classification , protein classification & -13.000000 \\
+8 & neural network , amino acid sequence & -13.000000 \\
+9 & neural network , gene & -13.000000 \\
+10 & artificial intelligence , protein & -12.000000 \\
+11 & classification , gene expression profiling & -12.000000 \\
+12 & support vector machine , amino acid sequence & -12.000000 \\
+13 & support vector machine , gene expression profile & -12.000000 \\
+14 & clustering , gene expression profile & -11.000000 \\
+15 & expression patterns , gene expression profile & -11.000000 \\
+16 & expression patterns , expression profiles & -10.000000 \\
+17 & decision tree , protein & -9.000000 \\
+18 & neural network , secondary structure & -9.000000 \\
+19 & neural network , tumor & -9.000000 \\
+20 & support vector machine , protein sequence & -9.000000 \\
+\end{tabular}
+
+541     600
+___________________________________________________________
+Result of Year   2015   :
+TOP20 increase of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & machine learning , gene & 3492.000000 \\
+2 & classification , gene & 1846.000000 \\
+3 & neural network , gene & 1450.000000 \\
+4 & deep learning , gene & 1180.000000 \\
+5 & machine learning , cancer & 851.000000 \\
+6 & learning algorithm , gene & 851.000000 \\
+7 & regression , gene & 834.000000 \\
+8 & random forest , gene & 706.000000 \\
+9 & support vector machine , gene & 681.000000 \\
+10 & classification , cancer & 675.000000 \\
+11 & convolution neural network , gene & 659.000000 \\
+12 & machine learning , protein & 603.000000 \\
+13 & artificial intelligence , gene & 552.000000 \\
+14 & neural network , cancer & 440.000000 \\
+15 & machine learning , tumor & 409.000000 \\
+16 & deep learning , cancer & 397.000000 \\
+17 & receiver operating characteristic , gene & 385.000000 \\
+18 & cross-validation , gene & 359.000000 \\
+19 & supervised learning , gene & 351.000000 \\
+20 & classification , tumor & 349.000000 \\
+\end{tabular}
+
+ 
+TOP20 decrease of cs&medical:
+\begin{tabular}{llr}
+ & name & counts \\
+1 & machine learning , microarray analysis & -10.000000 \\
+2 & classification , microarray analysis & -9.000000 \\
+3 & machine learning , suicide notes & -8.000000 \\
+4 & support vector machine , protein complex & -8.000000 \\
+5 & feature selection , gene selection & -7.000000 \\
+6 & linear classifier , protein & -7.000000 \\
+7 & multivariate model , expression signature & -7.000000 \\
+8 & support vector machine , cleavage site & -7.000000 \\
+9 & bayesian model , single nucleotide polymorphism & -6.000000 \\
+10 & majority voting , protein & -6.000000 \\
+11 & nearest neighbor , amino acid composition & -6.000000 \\
+12 & nearest neighbor , computed tomography & -6.000000 \\
+13 & pattern recognition , gene expression & -6.000000 \\
+14 & support vector machine , human leukocyte antigen & -6.000000 \\
+15 & support vector machine , protein function & -6.000000 \\
+16 & systems biology , protein interaction & -6.000000 \\
+17 & bayesian model , breast cancer & -5.000000 \\
+18 & bayesian model , dna sequence & -5.000000 \\
+19 & bayesian model , protein interaction & -5.000000 \\
+20 & bayesian network , gene expression & -5.000000 \\
+\end{tabular}
+

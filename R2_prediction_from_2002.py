@@ -233,7 +233,7 @@ for window_size in [1, 3, 5, 7, 9]:
         results['SVR'].append(get_r2(pred_svr[date], heats[date]))
         results['Lasso'].append(get_r2(pred_lasso[date], heats[date]))
         results['Ridge'].append(get_r2(pred_ridge[date], heats[date]))
-        results['Elastic_net'].append(get_r2(pred_elastic_net[date], heats[date]))
+        results['ElasticNet'].append(get_r2(pred_elastic_net[date], heats[date]))
         results['OrthogonalMatchingPursuit'].append(get_r2(pred_omp[date], heats[date]))
         results['PassiveAggressiveRegressor'].append(get_r2(pred_par[date], heats[date]))
     pd.DataFrame(results).to_csv('window_size_{}_final.csv'.format(window_size))

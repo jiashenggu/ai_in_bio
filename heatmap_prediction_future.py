@@ -111,7 +111,7 @@ results['lasso_r2'] = []
 results['lasso_spearmanr'] = []
 # while(end<=234):#2019/6
 pred_start = 265 # 2022/1
-pred_end = 276
+pred_end = 324
 while(end <= pred_end):  # 2023/12
     print(start, "   ", end, len(train_label))
    # for c in range(1,tot_cs+1):

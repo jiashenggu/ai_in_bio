@@ -99,12 +99,24 @@ while(end<=600):#234: 2019-12
             name.append(dict[c]+" , "+dict[m+5000])
     tmp,name=zip(*sorted(zip(tmp, name)))
     print("TOP20 increase of cs&medical:")
+    names = []
+    tmps = []
     for i in range(20):
-        print(name[len(name)-1-i],":",tmp[len(name)-1-i])
+        names.append(name[len(name)-1-i])
+        tmps.append(tmp[len(name)-1-i])
+    df = pd.DataFrame({'name': names, 'counts': tmps})
+    df.index = range(1, 21)
+    print(df.style.to_latex())
     print(" ")
     print("TOP20 decrease of cs&medical:")
+    names = []
+    tmps = []
     for i in range(20):
-        print(name[i],":",tmp[i])
+        names.append(name[i])
+        tmps.append(tmp[i])
+    df = pd.DataFrame({'name': names, 'counts': tmps})
+    df.index = range(1, 21)
+    print(df.style.to_latex())
     start+=60
     end+=60
     last_heat=heat
