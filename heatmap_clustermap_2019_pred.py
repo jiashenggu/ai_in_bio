@@ -4,23 +4,17 @@ import gensim
 import pickle
 from gensim.models import Word2Vec
 import pandas as pd
-import nltk
 import re
-import glob
 from gensim.models.phrases import Phrases, Phraser
 import ahocorasick
 import numpy as np
 import seaborn as sns
 import matplotlib.pylab as plt
 from sklearn.metrics import r2_score
-from scipy.stats import spearmanr
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import Ridge
-from sklearn.linear_model import Lasso
-from sklearn.svm import SVR
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import ElasticNet
+
 import seaborn as sns
-import scipy.spatial as sp
+
 import scipy.cluster.hierarchy as hc
 C = ahocorasick.Automaton()
 M = ahocorasick.Automaton()
@@ -128,7 +122,7 @@ while(end <= end_pred):  # 2021-12
                     # print(tmp)
                     # print("---")
 
-                    reg = Ridge(random_state=0).fit(np.asarray(
+                    reg = ElasticNet(random_state=0).fit(np.asarray(
                         train_data[c*10000+m]), np.asarray(train_label[c*10000+m]))
                     pred_heat[c+20][m+20] = reg.predict(np.asarray([tmp]))[0]
 
@@ -160,7 +154,7 @@ def get_r2(pred_heat, heat):
     return r2_score(y_true, y_pred)
 
 
-print("Ridge  r2_score:",  get_r2(pred_heat, heat))
+print("ElasticNet  r2_score:",  get_r2(pred_heat, heat))
 
 # model = Word2Vec.load("word2vec/fulltext_abstract_phrases3.model")
 model = Word2Vec.load("word2vec/fulltext_abstract_new.model")
@@ -221,5 +215,5 @@ ax.set_xlabel("medical_keywords")
 
 ax.set_yticklabels(ax.get_ymajorticklabels(), fontdict={'fontsize':7})
 ax.set_xticklabels(ax.get_xmajorticklabels(), fontdict={'fontsize':7})
-# g.savefig("2019-6-actal_3.pdf")
-g.savefig("picture/2021-12-actal_3.pdf")
+# g.savefig("2019-6-actual_3.pdf")
+g.savefig("picture/2021-12-actual_3.pdf")

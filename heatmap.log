@@ -1,0 +1,239 @@
+structural_features      structural features      0
+structural_information      structural information      1
+physicochemical_properties      physicochemical properties      2
+computational_complexity      computational complexity      3
+feature_space      feature space      4
+feature_vector      feature vector      5
+mutual_information      mutual information      6
+external_validation      external validation      7
+nearest_neighbor      nearest neighbor      8
+standard_deviation      standard deviation      9
+correlation_coefficient      correlation coefficient      10
+time_series      time series      11
+missing_data      missing data      12
+prediction_model      prediction model      13
+predictive_model      prediction model      13
+predictive_modeling      prediction model      13
+computational_models      computational models      14
+computational_approaches      computational models      14
+computational_methods      computational models      14
+statistical_methods      statistical methods      15
+in_silico      in silico      16
+decision_making      decision making      17
+expert_system      expert system      18
+free_text      free text      19
+decision_support      decision support      20
+computer-aided_diagnosis      computer-aided diagnosis      21
+virtual_screening      virtual screening      22
+text_mining      text mining      23
+data_mining      data mining      24
+natural_language_processing      natural language processing      25
+social_media      social media      26
+big_data      big data      27
+data_science      data science      28
+artificial_intelligence      artificial intelligence      29
+prior_knowledge      prior knowledge      30
+remote_sensing      remote sensing      31
+computer_vision      computer vision      32
+active_learning      active learning      33
+signal_processing      signal processing      34
+reinforcement_learning      reinforcement learning      35
+machine_learning      machine learning      36
+deep_learning      deep learning      37
+pattern_recognition      pattern recognition      38
+neural_network      neural network      39
+supervised_learning      supervised learning      40
+artificial_neural_network      artificial neural network      41
+image_classification      image classification      42
+transfer_learning      transfer learning      43
+pattern_classification      pattern classification      44
+brain-computer_interface      brain-computer interface      45
+supervised_machine_learning      supervised machine learning      46
+feature_representation      feature representation      47
+convolutional_neural_network      convolutional neural network      48
+web_server      web server      49
+computational_method      computational method      50
+binary_classification      binary classification      51
+classification      classification      52
+learning_algorithm      learning algorithm      53
+linear_classifier      linear classifier      54
+random_forest_classifier      random forest classifier      55
+ensemble_classifier      ensemble classifier      56
+multilayer_perceptron      multilayer perceptron      57
+genetic_algorithm      genetic algorithm      58
+bayes_classifier      bayes classifier      59
+bayesian_classifier      bayes classifier      59
+radial_basis_function      radial basis function      60
+svm_model      support vector machine      61
+svm_classifier      support vector machine      61
+support_vector_machine      support vector machine      61
+support_vector_regression      support vector regression      62
+regression_model      regression model      63
+linear_regression      linear regression      64
+logistic_regression      logistic regression      65
+naive_bayes      naive bayes      66
+decision_tree      decision tree      67
+random_forest      random forest      68
+cross_validation      cross validation      69
+feature_selection      feature selection      70
+principal_component_analysis      principal component analysis      71
+dimensionality_reduction      dimensionality reduction      72
+independent_component_analysis      independent component analysis      73
+linear_discriminant      linear discriminant      74
+variable_selection      variable selection      75
+discriminant_analysis      discriminant analysis      76
+feature_extraction      feature extraction      77
+wavelet_transform      wavelet transform      78
+image_features      image features      79
+texture_features      texture features      80
+textural_features      texture features      80
+texture_analysis      texture analysis      81
+image_segmentation      image segmentation      82
+automatic_detection      automatic detection      83
+automatic_segmentation      automatic segmentation      84
+image_processing      image processing      85
+fully_automated      fully automated      86
+image_analysis      image analysis      87
+region_of_interest      region of interest      88
+quantitative_analysis      quantitative analysis      89
+statistical_analysis      statistical analysis      90
+multivariate_analysis      multivariate analysis      91
+sensitivity_and_specificity      sensitivity and specificity      92
+area_under_the_curve      roc curve      93
+receiver_operating_characteristic      roc curve      93
+receiver_operating_characteristic_curve      roc curve      93
+roc_curve      roc curve      93
+93    196
+1     6 18518
+
+
+7     12 18518
+
+
+13     18 18518
+
+
+19     24 18518
+
+
+25     30 18518
+
+
+31     36 18518
+
+
+37     42 18518
+
+
+43     48 18518
+
+
+49     54 18518
+
+
+55     60 18518
+
+
+61     66 18518
+
+
+67     72 18518
+
+
+73     78 18518
+
+
+79     84 18518
+
+
+85     90 18518
+
+
+91     96 18518
+
+
+97     102 18518
+
+
+103     108 18518
+
+
+109     114 18518
+
+
+115     120 18518
+
+
+121     126 18518
+
+
+127     132 18518
+
+
+133     138 18518
+
+
+139     144 18518
+
+
+145     150 18518
+
+
+151     156 18518
+
+
+157     162 18518
+
+
+163     168 18518
+
+
+169     174 18518
+
+
+175     180 18518
+
+
+181     186 18518
+
+
+187     192 18518
+
+
+193     198 18518
+
+
+199     204 18518
+
+
+205     210 18518
+
+
+211     216 18518
+
+
+217     222 18518
+
+
+223     228 18518
+
+
+229     234 18518
+
+
+235     240 18518
+
+
+241     246 18518
+
+
+247     252 18518
+
+
+253     258 18518
+
+
+259     264 18518
+
+
+ElasticNet  r2_score: 0.8154837438810854

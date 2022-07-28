@@ -16,6 +16,7 @@ from sklearn.metrics import r2_score
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import Ridge
 from sklearn.linear_model import Lasso
+from sklearn.linear_model import ElasticNet
 from scipy.stats import spearmanr
 C = ahocorasick.Automaton()
 M = ahocorasick.Automaton()
@@ -155,12 +156,12 @@ while(end <= pred_end):  # 2023/12
                     #print(train_label[c*10000+m])
                     #print(tmp)
                     #print("---")
-                    reg = Lasso(random_state=0).fit(np.asarray(
+                    reg = ElasticNet(random_state=0).fit(np.asarray(
                         train_data[c*10000+m]), np.asarray(train_label[c*10000+m]))
                     pred_heat[c+20][m+20] = reg.predict(np.asarray([tmp]))[0]
                     if(pred_heat[c+20][m+20] < 0):
                         pred_heat[c+20][m+20] = 0
-                    np.save("pred_heat_future_{}.npy".format(start), pred_heat)
+                    np.save("pred_heat_future_{}_ElasticNet.npy".format(start), pred_heat)
 
                 else:
                     train_data[c*10000+m].append(tmp)

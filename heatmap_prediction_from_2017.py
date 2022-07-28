@@ -15,7 +15,7 @@ import matplotlib.pylab as plt
 from sklearn.metrics import r2_score
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import Ridge
-from sklearn.linear_model import Lasso
+from sklearn.linear_model import Lasso, ElasticNet
 from scipy.stats import spearmanr
 C = ahocorasick.Automaton()
 M = ahocorasick.Automaton()
@@ -107,8 +107,8 @@ for c in range(1, tot_cs+1):
 results = {}
 results['date'] = []
 
-results['lasso_r2'] = []
-results['lasso_spearmanr'] = []
+results['ElasticNet_r2'] = []
+
 # while(end<=234):#2019-6
 pred_start = 205 # 2016-1
 while(end <= 264):  # 2021-12
@@ -154,7 +154,7 @@ while(end <= 264):  # 2021-12
                     #print(train_label[c*10000+m])
                     #print(tmp)
                     #print("---")
-                    reg = Lasso(random_state=0).fit(np.asarray(
+                    reg = ElasticNet(random_state=0).fit(np.asarray(
                         train_data[c*10000+m]), np.asarray(train_label[c*10000+m]))
                     pred_heat[c+20][m+20] = reg.predict(np.asarray([tmp]))[0]
                     if(pred_heat[c+20][m+20] < 0):
@@ -163,14 +163,11 @@ while(end <= 264):  # 2021-12
                 else:
                     train_data[c*10000+m].append(tmp)
                     train_label[c*10000+m].append(heat[c+20, m+20])
-        lasso_r2 = get_r2(pred_heat, heat)
-        lasso_spearmanr = get_spearmanr(pred_heat, heat)
-        print(start/12, " ", start % 12, "  r2_score:",
-              lasso_r2, "   ", lasso_spearmanr)
+        ElasticNet_r2 = get_r2(pred_heat, heat)
+        print(start/12, " ", start % 12, "  r2_score:", ElasticNet_r2)
 
         results['date'].append("{}/{}".format(2000+int(start/12), start % 12))
-        results['lasso_r2'].append(lasso_r2)
-        results['lasso_spearmanr'].append(lasso_spearmanr)
+        results['ElasticNet_r2'].append(ElasticNet_r2)
 
     last_heat = heat
     if(start >= pred_start):
@@ -179,4 +176,4 @@ while(end <= 264):  # 2021-12
     end += 6
 
 
-pd.DataFrame(results).to_csv('lasso_cycle_5_2022.csv')
+pd.DataFrame(results).to_csv('ElasticNet_cycle_5_year_2022.csv')
