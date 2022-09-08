@@ -111,11 +111,12 @@ while(end <= 624): # 2021-12
     tmp,name=zip(*sorted(zip(tmp, name)))
     names = []
     tmps = []
+    total = np.sum(cs)
     for i in range(20):
         names.append(name[len(name)-1-i])
-        tmps.append(tmp[len(name)-1-i])
+        tmps.append(tmp[len(name)-1-i]/total*100)
         # print(name[len(name)-1-i],":",tmp[len(name)-1-i])
-    df = pd.DataFrame({'name': names, 'counts': tmps})
+    df = pd.DataFrame({'name': names, '%': tmps})
     df.index = range(1, 21)
     print(df.style.to_latex())
     print(" ")
@@ -128,11 +129,12 @@ while(end <= 624): # 2021-12
     tmp,name=zip(*sorted(zip(tmp, name)))
     names = []
     tmps = []
+    total = np.sum(medical)
     for i in range(20):
         names.append(name[len(name)-1-i])
-        tmps.append(tmp[len(name)-1-i])
+        tmps.append(tmp[len(name)-1-i]/total*100)
         # print(name[len(name)-1-i],":",tmp[len(name)-1-i])
-    df = pd.DataFrame({'name': names, 'counts': tmps})
+    df = pd.DataFrame({'name': names, '%': tmps})
     df.index = range(1, 21)
     print(df.style.to_latex())
     print(" ")  
@@ -146,11 +148,12 @@ while(end <= 624): # 2021-12
     tmp,name=zip(*sorted(zip(tmp, name)))
     names = []
     tmps = []
+    total = np.sum(heat)
     for i in range(20):
         names.append(name[len(name)-1-i])
-        tmps.append(tmp[len(name)-1-i])
+        tmps.append(tmp[len(name)-1-i]/total*100)
         # print(name[len(name)-1-i],":",tmp[len(name)-1-i])
-    df = pd.DataFrame({'name': names, 'counts': tmps})
+    df = pd.DataFrame({'name': names, '%': tmps})
     df.index = range(1, 21)
     print(df.style.to_latex())
     start+=60
