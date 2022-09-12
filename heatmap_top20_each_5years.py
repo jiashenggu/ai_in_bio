@@ -15,6 +15,7 @@ import seaborn as sns
 import matplotlib.pylab as plt
 C = ahocorasick.Automaton()
 M = ahocorasick.Automaton()
+
 def not_all_uppercase(str):
     for i in range(len(str)):
         if(str[i]>='a' and str[i]<='z'):
@@ -52,8 +53,8 @@ M.make_automaton()
 
 # df_all = pd.read_csv('./papers.csv')
 df_all = pd.read_csv('./papers_2022.csv')
-start=1
-end=60
+start=1+60*9
+end=60+60*9
 #  1970
 df_all['Date']=(df_all['year']-1970)*12+df_all['month']
 
@@ -151,11 +152,11 @@ while(end <= 624): # 2021-12
     total = np.sum(heat)
     for i in range(20):
         names.append(name[len(name)-1-i])
-        tmps.append(tmp[len(name)-1-i]/total*100)
+        tmps.append(round(tmp[len(name)-1-i]/total*100, 3))
         # print(name[len(name)-1-i],":",tmp[len(name)-1-i])
     df = pd.DataFrame({'name': names, '%': tmps})
     df.index = range(1, 21)
-    print(df.style.to_latex())
+    print(df.to_latex(float_format="%.3f"))
     start+=60
     end+=60
 
