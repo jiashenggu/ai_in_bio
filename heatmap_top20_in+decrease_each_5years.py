@@ -100,16 +100,20 @@ while(end <= 624):  # 2021-12
     names = []
     for c in range(0, tot_cs+1):
         for m in range(0, tot_medical+1):
-            # tmp.append(heat[c,m]-last_heat[c,m])
-            heats.append(heat[c, m])
+            heats.append(heat[c,m]-last_heat[c,m])
+            # heats.append(heat[c, m])
             names.append(dict[c]+" , "+dict[m+5000])
     heats, names = zip(*sorted(zip(heats, names)))
-
+    heats_set = list(set(list(heats)))
+    heats_set.sort()
+    score2rank = {x: i for i, x in enumerate(heats_set)}
+    print(score2rank)
+    
     for t, n in zip(heats, names):
         print(t, n)
     rank = {}
-    for i, name in enumerate(reversed(names)):
-        rank[name] = i + 1
+    for i, name in enumerate(names):
+        rank[name] = score2rank[heats[i]]
     ranks.append(rank)
     if len(ranks) > 1:
         print(ranks)
@@ -119,7 +123,7 @@ while(end <= 624):  # 2021-12
             for m in range(0, tot_medical+1):
                 _name = dict[c]+" , "+dict[m+5000]
                 # tmp.append(heat[c,m]-last_heat[c,m])
-                tmp.append(ranks[0][_name] - ranks[1][_name])
+                tmp.append(-ranks[0][_name] + ranks[1][_name])
                 name.append(_name)
         tmp, name = zip(*sorted(zip(tmp, name)))
 
