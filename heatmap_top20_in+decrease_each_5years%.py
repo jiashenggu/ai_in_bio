@@ -98,11 +98,13 @@ while(end <= 624):  # 2021-12
     heats = []
     names = []
     total = 0
+    threshold = 50
     for c in range(0, tot_cs+1):
         for m in range(0, tot_medical+1):
-            # inc = heat[c,m]-last_heat[c,m]
-            if last_heat[c, m] == 0:
+            
+            if last_heat[c, m] < threshold or heat[c, m] < threshold:
                 continue
+            # inc = heat[c,m]-last_heat[c,m]
             inc = (heat[c,m]-last_heat[c,m])/last_heat[c, m]*100
             total += inc
             heats.append(inc)
