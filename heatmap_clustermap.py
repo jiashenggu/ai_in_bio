@@ -93,10 +93,10 @@ col_order = hc.dendrogram(col_linkage)
 heat=np.log1p(heat)
 g=sns.clustermap(heat, figsize=(20, 20), row_linkage=row_linkage, col_linkage=col_linkage, vmin=0, vmax=5, xticklabels = False, yticklabels = False)
     # yticklabels = [dict[r] for r in row_order['leaves']], xticklabels = [dict[5000 + c] for c in col_order['leaves']]) 
-
+g.ax_cbar.tick_params(labelsize=25)
 ax = g.ax_heatmap
-ax.set_ylabel("cs_keywords")
-ax.set_xlabel("medical_keywords")
+# ax.set_ylabel("cs_keywords")
+# ax.set_xlabel("medical_keywords")
 
 ax.set_yticklabels(ax.get_ymajorticklabels(), fontdict={'fontsize':7})
 ax.set_xticklabels(ax.get_xmajorticklabels(), fontdict={'fontsize':7})
